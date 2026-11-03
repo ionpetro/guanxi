@@ -1,0 +1,53 @@
+{
+  "recovered_on": "2026-11-03",
+  "project": "Guanxi",
+  "goal": "Learn Mandarin and local culture to build lasting business relationships, with Shenzhen as home base.",
+  "interrupted_stage": "research",
+  "failure": "Claude monthly spend limit; downstream workflow then tried to read plan.units from a null curriculum result.",
+  "completed": [
+    "Project plan and copied app scaffold committed",
+    "Reference downloads listed below"
+  ],
+  "not_completed": [
+    "Research synthesis",
+    "Curriculum",
+    "Mandarin engine adaptation",
+    "Mandarin lessons",
+    "Language and culture review",
+    "App QA",
+    "Deployment"
+  ],
+  "reference_files": [
+    {
+      "path": "research/source-data/cedict/cedict.txt",
+      "bytes": 9871053,
+      "sha256": "13d0d4cdf42e4a8ca840a376ede5df75bf4fdfa0e991a7d7653d45e65c2080b1"
+    },
+    {
+      "path": "research/source-data/hsk/hsk30-chars.csv",
+      "bytes": 108366,
+      "sha256": "8c5957108e6dafd120be10518a827a4d834ea3ce29acbfedeff1022cd7d05280"
+    },
+    {
+      "path": "research/source-data/hsk/hsk30-grammar.csv",
+      "bytes": 38801,
+      "sha256": "9a546944af00976a3afb160fe70dd564a035d36eff82eb275b6aed7ed8a9ccf4"
+    },
+    {
+      "path": "research/source-data/hsk/hsk30.csv",
+      "bytes": 948891,
+      "sha256": "8c2b73f74776240bcf154624730fc6fb2c42c254d5c5d0f88943878b8e575b9b"
+    },
+    {
+      "path": "research/source-data/hsk2025/syllabus2025.pdf",
+      "bytes": 929792,
+      "sha256": "23162dd8811ea71278feceea09ae01094b520a541a2ea9745633eeeb2a379d70"
+    }
+  ],
+  "source_candidates_file": "research/source-candidates.jsonl",
+  "source_candidate_count": 312,
+  "agent_transcripts_scanned": 23,
+  "source_warning": "Recovered URLs record attempted fetches, not successful access or verified claims. Re-open and evaluate each source before using it. No research page bodies or private conversation contents are copied here.",
+  "app_warning": "Current app and example unit still belong to the Objection law-course template. Existing app test results do not validate Mandarin content.",
+  "next_step": "Confirm whether to resume the full course build or develop the learning corpus first; synthesize and verify research before writing learner-facing content."
+}

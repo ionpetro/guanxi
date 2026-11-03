@@ -1,0 +1,287 @@
+[
+  {
+    "id": "u1-1-9",
+    "title": "A city of arrivals",
+    "place": "Shenzhen Bao’an",
+    "body": "来了就是深圳人 (lái le jiù shì Shēnzhèn rén)—“Once you arrive, you are a Shenzhener”—is a city slogan. Let it open a conversation: Zhou works here but grew up in Chengdu. Ask about her own story.",
+    "src": "sz-inclusion",
+    "status": "sourced",
+    "say": "A city of arrivals",
+    "quiz": {
+      "q": "Zhou says she grew up in Chengdu. Which follow-up invites her story?",
+      "options": [
+        "What brought you to Shenzhen?",
+        "So you only visit Shenzhen for holidays?",
+        "Then Shenzhen cannot feel like home to you?"
+      ],
+      "answer": "What brought you to Shenzhen?",
+      "why": "Her hometown and her present home can both matter. Follow what she tells you."
+    }
+  },
+  {
+    "id": "u1-2-9",
+    "title": "A short greeting is enough",
+    "place": "Airport pickup",
+    "body": "At this first pickup, you only need a greeting, your name and one clear question. 您好 (nín hǎo) offers a respectful opening; 你好 (nǐ hǎo) is a common everyday greeting. You can be warm without delivering a memorized speech.",
+    "src": "Original language and relationship practice",
+    "status": "general",
+    "say": "A short greeting is enough",
+    "quiz": {
+      "q": "You lose your place in a memorized introduction. What keeps the exchange going?",
+      "options": [
+        "Use a short greeting and give your name",
+        "Restart the entire speech until every word is exact",
+        "Wait silently until Zhou introduces you for you"
+      ],
+      "answer": "Use a short greeting and give your name",
+      "why": "A short accurate introduction leaves room to listen and respond."
+    }
+  },
+  {
+    "id": "u1-3-9",
+    "title": "Learn the name, not just the letters",
+    "place": "Nanshan café",
+    "body": "On Lin’s contact screen, 林悦 (Lín Yuè) has both characters and pinyin. Ask her to say it, repeat it, and let her correct you. Pinyin helps you remember a name; it does not turn it into English spelling.",
+    "src": "Original language and relationship practice",
+    "status": "general",
+    "say": "Learn the name, not just the letters",
+    "quiz": {
+      "q": "You can read Lín Yuè but are unsure how it sounds. What helps most?",
+      "options": [
+        "Ask Lin to say it, then try it back",
+        "Use the English pronunciation of each letter",
+        "Avoid saying her name in every future conversation"
+      ],
+      "answer": "Ask Lin to say it, then try it back",
+      "why": "Listening and checking are useful even when a spelling looks familiar."
+    }
+  },
+  {
+    "id": "u1-4-9",
+    "title": "Shenzhen has an older story",
+    "place": "Nantou Ancient Town",
+    "body": "Nantou was an administrative and trading center long before Shenzhen’s modern technology boom. On a walk with Lin, old gates and busy streets give you something more personal to discuss than a company pitch. Ask what she likes about the neighborhood.",
+    "src": "sz-nantou",
+    "status": "sourced",
+    "say": "Shenzhen has an older story",
+    "quiz": {
+      "q": "Which opening fits a walk through Nantou with Lin?",
+      "options": [
+        "What do you enjoy about this neighborhood?",
+        "Was everything here built for the technology industry?",
+        "Can we skip your favorite places and discuss prices now?"
+      ],
+      "answer": "What do you enjoy about this neighborhood?",
+      "why": "A specific question lets your host share their own experience of the place."
+    }
+  },
+  {
+    "id": "u1-5-9",
+    "title": "A cup and a conversation",
+    "place": "Nanshan workshop",
+    "body": "Tea can be part of welcoming guests in homes and workplaces. In Lin’s workshop she offers tea before the tour. Thank her, say what you would like, and follow the conversation; accepting tea does not commit you to an order.",
+    "src": "cn-tea",
+    "status": "sourced",
+    "say": "A cup and a conversation",
+    "quiz": {
+      "q": "Lin offers tea, but you would prefer water. Which response fits?",
+      "options": [
+        "Thank her and politely ask for water",
+        "Accept tea because a guest has no choice",
+        "Discuss the order quantity before answering the offer"
+      ],
+      "answer": "Thank her and politely ask for water",
+      "why": "Hospitality leaves room for an ordinary preference."
+    }
+  },
+  {
+    "id": "u2-1-9",
+    "title": "Names and titles",
+    "place": "Nanshan studio",
+    "body": "林 (Lín) is Lin Yue’s family name; 悦 (Yuè) is her given name. In a formal introduction, a surname plus role—such as 李经理 (Lǐ jīnglǐ), Manager Li—can be useful. Then use the form the person asks you to use.",
+    "src": "Original language practice; cn-business contextual guidance",
+    "status": "general",
+    "say": "Names and titles",
+    "quiz": {
+      "q": "A manager introduces herself as 李经理 (Lǐ jīnglǐ). How can you address her initially?",
+      "options": [
+        "李经理 (Lǐ jīnglǐ)",
+        "经理李 (jīnglǐ Lǐ)",
+        "Use only an English name you choose for her"
+      ],
+      "answer": "李经理 (Lǐ jīnglǐ)",
+      "why": "In this title pattern, the surname comes before the role."
+    }
+  },
+  {
+    "id": "u2-2-9",
+    "title": "The person behind the introduction",
+    "place": "Nanshan prototype bench",
+    "body": "Zhou introduces Chen as a supplier from Huaqiangbei, the electronics-market area in Futian. That tells you where this connection began. Ask what his company supplies and what he handles; a market contact may have a different role from a factory manager.",
+    "src": "sz-huaqiangbei",
+    "status": "sourced",
+    "say": "The person behind the introduction",
+    "quiz": {
+      "q": "You need someone to answer a component question. What should you establish first?",
+      "options": [
+        "What Chen supplies and which questions he handles",
+        "Whether every Huaqiangbei seller makes the same product",
+        "Whether Zhou’s introduction guarantees the sample quality"
+      ],
+      "answer": "What Chen supplies and which questions he handles",
+      "why": "A useful introduction gives you a starting point; a role question makes it actionable."
+    }
+  },
+  {
+    "id": "u2-3-9",
+    "title": "Where home is",
+    "place": "Nanshan lunch",
+    "body": "Shenzhen’s welcoming civic slogan sits alongside many individual stories of home. Zhou tells you about Chengdu while working in Shenzhen. 家乡 (jiāxiāng), hometown, is a way into her story; listen to her answer rather than assigning tastes or habits by province.",
+    "src": "sz-inclusion",
+    "status": "sourced",
+    "say": "Where home is",
+    "quiz": {
+      "q": "Zhou mentions Chengdu. Which follow-up leaves room for her preferences?",
+      "options": [
+        "What food do you miss from home?",
+        "You must want every meal very spicy, right?",
+        "So you will not enjoy Cantonese food, right?"
+      ],
+      "answer": "What food do you miss from home?",
+      "why": "Ask about her experience. A place of origin does not decide a person’s tastes."
+    }
+  },
+  {
+    "id": "u2-4-9",
+    "title": "Cards and QR codes",
+    "place": "Nanshan studio",
+    "body": "Business cards still appear in introductions, and WeChat contact exchange is increasingly common. Chen offers his QR code. After adding him, a short message with your name and where you met helps connect the new contact to the real conversation.",
+    "src": "cn-business-current",
+    "status": "sourced",
+    "say": "Cards and QR codes",
+    "quiz": {
+      "q": "Which first message helps Chen place you?",
+      "options": [
+        "Your name and “We met at Lin’s studio today”",
+        "Only “Hello” with no identifying detail",
+        "A long quotation request without an introduction"
+      ],
+      "answer": "Your name and “We met at Lin’s studio today”",
+      "why": "Give the new contact enough context to recognize you."
+    }
+  },
+  {
+    "id": "u2-5-9",
+    "title": "Who handles this?",
+    "place": "Nanshan meeting",
+    "body": "At Lin’s hardware studio, the founder, supplier and tester handle different parts of the project. 谁负责测试？ (shéi fùzé cèshì?)—“Who handles testing?”—is a useful way to learn the team, without guessing authority from age or how much someone speaks.",
+    "src": "Original fictional workplace practice",
+    "status": "general",
+    "say": "Who handles this?",
+    "quiz": {
+      "q": "Zhou says she organizes testing, while Lin approves changes. Who should receive a test-schedule question first?",
+      "options": [
+        "Zhou, who organizes testing",
+        "Lin solely because she is the founder",
+        "Chen solely because he introduced himself first"
+      ],
+      "answer": "Zhou, who organizes testing",
+      "why": "Follow the responsibility the team actually described."
+    }
+  },
+  {
+    "id": "u3-1-9",
+    "title": "Meet at the exit",
+    "place": "Futian station meeting",
+    "body": "“At the station” can leave two people searching for each other. In this Futian meeting, Zhou sends 三号出口 (sān hào chūkǒu), Exit 3. Reply with your exit and a nearby sign. Treat the exit here as a practice detail, then use the actual signs when traveling.",
+    "src": "Original fictional navigation practice",
+    "status": "general",
+    "say": "Meet at the exit",
+    "quiz": {
+      "q": "Zhou is at Exit 3 and you are at Exit 2. Which message helps coordinate?",
+      "options": [
+        "I am at Exit 2; shall I come to Exit 3?",
+        "I have arrived, with no exit detail",
+        "I am at Exit 3, because that is your meeting point"
+      ],
+      "answer": "I am at Exit 2; shall I come to Exit 3?",
+      "why": "State your actual location before agreeing how to meet."
+    }
+  },
+  {
+    "id": "u3-2-9",
+    "title": "Read the address in layers",
+    "place": "Shekou, Nanshan",
+    "body": "Shekou is in Nanshan District, across Shenzhen Bay from Hong Kong. In an address, the district and neighborhood orient you; a building name, floor and entrance finish the job. Keep 蛇口 (Shékǒu) visible on your phone when confirming the place.",
+    "src": "sz-shekou",
+    "status": "sourced",
+    "say": "Read the address in layers",
+    "quiz": {
+      "q": "Lin says the office is in Shekou. What would make the address usable?",
+      "options": [
+        "The building and entrance, as well as the neighborhood",
+        "Only the word Shenzhen",
+        "Only her home province"
+      ],
+      "answer": "The building and entrance, as well as the neighborhood",
+      "why": "A district or neighborhood is wider than one meeting place."
+    }
+  },
+  {
+    "id": "u3-3-9",
+    "title": "Confirm the whole appointment",
+    "place": "Futian café",
+    "body": "A friendly 三点半见 (sān diǎn bàn jiàn)—“See you at half past three”—works when both people share the context. If your messages cover several days, confirm the day and whether it is morning or afternoon. Precision makes it easier to be considerate.",
+    "src": "Original fictional scheduling practice",
+    "status": "general",
+    "say": "Confirm the whole appointment",
+    "quiz": {
+      "q": "You have only “3:30” in a message spanning two days. What should you confirm?",
+      "options": [
+        "Which day and morning or afternoon",
+        "Only whether tea will be served",
+        "Only the neighborhood’s Chinese spelling"
+      ],
+      "answer": "Which day and morning or afternoon",
+      "why": "A time needs a shared day and part of the day."
+    }
+  },
+  {
+    "id": "u3-4-9",
+    "title": "Make room for a neighborhood walk",
+    "place": "Shekou",
+    "body": "Shekou includes older neighborhoods as well as modern business spaces. Near Chiwan, Tianhou Temple is associated with Mazu, a sea goddess. If Lin suggests a walk, ask what she wants to show you and agree a time that works for both of you.",
+    "src": "sz-nantou",
+    "status": "sourced",
+    "say": "Make room for a neighborhood walk",
+    "quiz": {
+      "q": "Lin offers a neighborhood walk on Friday, but your supplier visit may run late. What works best?",
+      "options": [
+        "Explain the timing conflict and propose a workable time",
+        "Accept immediately and decide later whether to appear",
+        "Decline because a walk cannot help a business relationship"
+      ],
+      "answer": "Explain the timing conflict and propose a workable time",
+      "why": "Interest and a realistic plan go together. A social invitation does not require overpromising."
+    }
+  },
+  {
+    "id": "u3-5-9",
+    "title": "One message everyone can use",
+    "place": "Shekou meeting",
+    "body": "Before leaving, send one short recap: day, time, place and entrance. Ask the other person to confirm a mismatch. This is especially helpful while learning Mandarin: a written name or number can settle something you did not catch by ear.",
+    "src": "Original fictional coordination practice",
+    "status": "general",
+    "say": "One message everyone can use",
+    "quiz": {
+      "q": "Your calendar and Zhou’s message disagree about both day and entrance. What should the recap do?",
+      "options": [
+        "Name both conflicting details and ask which is correct",
+        "Repeat only the time, which already matches",
+        "Choose your calendar’s version without asking"
+      ],
+      "answer": "Name both conflicting details and ask which is correct",
+      "why": "Point to the actual differences so the reply can resolve them."
+    }
+  }
+]

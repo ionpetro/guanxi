@@ -1,0 +1,20 @@
+{
+  "checked": "2026-11-03",
+  "units": 14,
+  "lessons": 70,
+  "lessonItems": 703,
+  "glossaryEntries": 450,
+  "distinctGlossaryHanzi": 399,
+  "kinds": {
+    "word": 422,
+    "sentence": 70,
+    "grammar": 65,
+    "culture": 44,
+    "scenario": 70,
+    "tone": 4,
+    "character": 28
+  },
+  "dialogueScenes": 14,
+  "heldOutScenarios": 28,
+  "sourceRecords": 18
+}

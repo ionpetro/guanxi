@@ -1,32 +1,13 @@
-// Inline src/* into one page: dist/index.html, then build the public website into vercel/ (see site.mjs).
-// Units: every app/src/units/u<N>*.js in numeric order, except the example (u0_example.js), which only tests use.
-import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
-import { createRequire } from "node:module";
-
-const require = createRequire(import.meta.url);
-const { unitFiles } = require("./src/course.js");
-// Load app/.env (optional) before site.mjs reads POSTHOG_KEY. Format: KEY=value per line.
-try {
-  for (const line of readFileSync(new URL("./.env", import.meta.url), "utf8").split("\n")) {
-    const m = line.match(/^\s*([A-Z_][A-Z0-9_]*)\s*=\s*(.*?)\s*$/);
-    if (m && !(m[1] in process.env)) process.env[m[1]] = m[2].replace(/^["']|["']$/g, "");
-  }
-} catch { /* no .env: build without analytics */ }
-const { buildSite } = await import("./site.mjs");
-
-const r = (p) => readFileSync(new URL(p, import.meta.url), "utf8");
-const strip = (js) => js.replace(/^if \(typeof module[^\n]*\n?/m, "");
-const files = unitFiles({ example: process.env.OBJECTION_INCLUDE_EXAMPLE === "1" });
-const units = files.map((f) => `// ---- ${f.split("/").pop()} ----\n${readFileSync(f, "utf8")}`).join("\n");
-
-const out = r("./src/shell.html")
-  .replace("/*STYLE*/", () => r("./src/style.css"))
-  .replace("/*UNITS*/", () => units)
-  .replace("/*ENGINE*/", () => strip(r("./src/engine.js")))
-  .replace("/*APP*/", () => r("./src/app.js"));
-mkdirSync(new URL("./dist/", import.meta.url), { recursive: true });
-writeFileSync(new URL("./dist/index.html", import.meta.url), out);
-console.log(`dist/index.html ${(out.length / 1024).toFixed(0)} KB, ${files.length} unit file(s)${files.length ? ": " + files.map((f) => f.split("/").pop().replace(/\.js$/, "")).join(", ") : " (no units yet; the app shows an empty courthouse)"}`);
-
-const n = buildSite(out, new URL("./vercel/", import.meta.url));
-console.log(`vercel/: app + outline (${n} rule cards) + about, sitemap, manifest, icons${process.env.POSTHOG_KEY ? ", PostHog on" : ", no analytics (set POSTHOG_KEY in app/.env)"}`);
+import {readFileSync,writeFileSync,mkdirSync} from 'node:fs';
+import {createRequire} from 'node:module';
+const require=createRequire(import.meta.url),{unitFiles}=require('./src/course.js');
+const {buildSite}=await import('./site.mjs');
+const read=p=>readFileSync(new URL(p,import.meta.url),'utf8');
+const sourceBank=JSON.parse(readFileSync(new URL('../research/root-culture-sources.json',import.meta.url),'utf8')).sources;
+const sources=Object.fromEntries(sourceBank.map(x=>[x.id,{title:x.title,publisher:x.publisher,url:x.url}]));
+const files=unitFiles({example:process.env.GUANXI_INCLUDE_EXAMPLE==='1'});
+const units=files.map(f=>readFileSync(f,'utf8')).join('\n');
+const out=read('./src/shell.html').replace('/*STYLE*/',read('./src/style.css')).replace('/*SOURCES*/',JSON.stringify(sources).replace(/</g,'\\u003c')).replace('/*UNITS*/',units).replace('/*ENGINE*/',read('./src/engine.js')).replace('/*APP*/',read('./src/app.js'));
+mkdirSync(new URL('./dist/',import.meta.url),{recursive:true});writeFileSync(new URL('./dist/index.html',import.meta.url),out);
+const count=buildSite(out,new URL('./vercel/',import.meta.url));
+console.log(`Built ${files.length} units, ${count} glossary entries; no analytics or .env loading.`);

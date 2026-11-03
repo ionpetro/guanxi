@@ -1,0 +1,138 @@
+{
+  "reviewer": "Root independent culture/evidence review",
+  "date": "2026-11-03",
+  "units": "u1–u14",
+  "sources": "research/root-culture-sources.json",
+  "earlier_replacements": 15,
+  "additional_culture_cards_reviewed": 29,
+  "fixes": [
+    {
+      "id": "u4-1-9",
+      "fix": "Replaced weak distractors with practical adjacent misunderstandings"
+    },
+    {
+      "id": "u4-2-9",
+      "fix": "Corrected original-practice provenance"
+    },
+    {
+      "id": "u4-2-9",
+      "fix": "Replaced weak distractors with practical adjacent misunderstandings"
+    },
+    {
+      "id": "u4-3-9",
+      "fix": "Replaced weak distractors with practical adjacent misunderstandings"
+    },
+    {
+      "id": "u4-4-9",
+      "fix": "Corrected original-practice provenance"
+    },
+    {
+      "id": "u4-5-9",
+      "fix": "Replaced weak distractors with practical adjacent misunderstandings"
+    },
+    {
+      "id": "u5-1-9",
+      "fix": "Corrected original-practice provenance"
+    },
+    {
+      "id": "u5-1-9",
+      "fix": "Replaced weak distractors with practical adjacent misunderstandings"
+    },
+    {
+      "id": "u5-2-9",
+      "fix": "Corrected original-practice provenance"
+    },
+    {
+      "id": "u5-3-9",
+      "fix": "Corrected original-practice provenance"
+    },
+    {
+      "id": "u5-3-9",
+      "fix": "Replaced weak distractors with practical adjacent misunderstandings"
+    },
+    {
+      "id": "u5-4-9",
+      "fix": "Corrected original-practice provenance"
+    },
+    {
+      "id": "u5-5-9",
+      "fix": "Corrected original-practice provenance"
+    },
+    {
+      "id": "u5-5-9",
+      "fix": "Replaced weak distractors with practical adjacent misunderstandings"
+    },
+    {
+      "id": "u6-2-9",
+      "fix": "Replaced weak distractors with practical adjacent misunderstandings"
+    },
+    {
+      "id": "u6-3-9",
+      "fix": "Corrected original-practice provenance"
+    },
+    {
+      "id": "u6-3-9",
+      "fix": "Replaced weak distractors with practical adjacent misunderstandings"
+    },
+    {
+      "id": "u6-4-9",
+      "fix": "Corrected original-practice provenance"
+    },
+    {
+      "id": "u6-4-9",
+      "fix": "Replaced weak distractors with practical adjacent misunderstandings"
+    },
+    {
+      "id": "u7-1-9",
+      "fix": "Corrected original-practice provenance"
+    },
+    {
+      "id": "u7-2-9",
+      "fix": "Corrected original-practice provenance"
+    },
+    {
+      "id": "u7-2-9",
+      "fix": "Replaced weak distractors with practical adjacent misunderstandings"
+    },
+    {
+      "id": "u7-3-9",
+      "fix": "Corrected original-practice provenance"
+    },
+    {
+      "id": "u7-3-9",
+      "fix": "Replaced weak distractors with practical adjacent misunderstandings"
+    },
+    {
+      "id": "u7-4-9",
+      "fix": "Replaced weak distractors with practical adjacent misunderstandings"
+    },
+    {
+      "id": "u7-5-9",
+      "fix": "Corrected original-practice provenance"
+    },
+    {
+      "id": "u13-l1-card",
+      "fix": "Replaced weak distractors with practical adjacent misunderstandings"
+    },
+    {
+      "id": "u13-l3-card",
+      "fix": "Replaced weak distractors with practical adjacent misunderstandings"
+    },
+    {
+      "id": "u14-l4-card",
+      "fix": "Replaced weak distractors with practical adjacent misunderstandings"
+    }
+  ],
+  "conclusions": [
+    "Regional claims checked against narrowly scoped primary-source facts.",
+    "Original work and relationship advice distinguished from sourced local facts.",
+    "Meals and invitations leave room for preferences and consent.",
+    "No national personality rules, guaranteed business outcomes or invented certification.",
+    "Practical questions replace most source-validity quizzes and several implausible distractors."
+  ],
+  "limitations": [
+    "AI editorial review; no native-speaker sign-off claimed.",
+    "The English-supported beginner exercises are a foundation; live conversation and listening remain necessary.",
+    "Official tourism/promotional sources support limited local facts, not broad claims about all residents."
+  ]
+}

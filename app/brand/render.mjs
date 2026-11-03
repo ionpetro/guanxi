@@ -9,6 +9,6 @@ import { fileURLToPath } from "node:url";
 const here = fileURLToPath(new URL(".", import.meta.url));
 const candidates = ["/Applications/Google Chrome.app/Contents/MacOS/Google Chrome", "/Applications/Chromium.app/Contents/MacOS/Chromium", "google-chrome", "chromium", "chrome"];
 const chrome = candidates.find((c) => c.startsWith("/") ? existsSync(c) : true);
-const profile = mkdtempSync(join(tmpdir(), "objection-chrome-"));
+const profile = mkdtempSync(join(tmpdir(), "guanxi-chrome-"));
 execFileSync(chrome, ["--headless=new", `--user-data-dir=${profile}`, `--screenshot=${join(here, "og.png")}`, "--window-size=1200,630", "--hide-scrollbars", "--virtual-time-budget=4000", `file://${join(here, "og.html")}`], { stdio: "inherit" });
 console.log("app/brand/og.png rendered");

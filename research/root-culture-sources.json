@@ -1,0 +1,267 @@
+{
+  "checked": "2026-11-03",
+  "purpose": "Evidence bank for original Guanxi culture lessons. Facts are paraphrased; source pages are not copied.",
+  "editorial_rules": [
+    "Separate observed local facts from the fictional cast’s choices.",
+    "Teach clarification instead of mind-reading; a hesitant answer can reflect uncertainty, timing or refusal.",
+    "Stereotyped nationality questions are not valid learner assessments. Frame choices around the specific situation.",
+    "A polite refusal of alcohol or disclosure of dietary requirements is always an available response.",
+    "Source codes support only listed facts, not every teaching recommendation. Original scenario advice should be identified as such.",
+    "Do not turn cultural knowledge into claims that contracts, verification or boundaries are unnecessary.",
+    "Verify time-sensitive travel and payment procedures at the time of use; the course should focus on language for asking."
+  ],
+  "sources": [
+    {
+      "id": "sz-huaqiangbei",
+      "title": "Huaqiangbei electronics street",
+      "publisher": "Shenzhen Municipal Talent Affairs Bureau / EyeShenzhen",
+      "url": "https://www.eyeshenzhen.com/content/2023-05/29/content_30246829.htm",
+      "published": "2023-05-29",
+      "checked": "2026-11-03",
+      "verification": "web search result and/or opened source read; only the limited claims below are supported",
+      "supported_claims": [
+        "Huaqiangbei is an electronics-market district in Futian, with markets spanning electronic components and finished products.",
+        "The area also includes food and non-electronics shopping."
+      ],
+      "authoring_notes": "Use as the setting for comparing sample specifications, quantities and supplier details. Do not infer every stall owns a factory or that cheap means equivalent quality."
+    },
+    {
+      "id": "sz-hakka",
+      "title": "City upgrades 3 intangible cultural heritages to municipal level",
+      "publisher": "Shenzhen Government Online / Shenzhen Daily",
+      "url": "https://www.sz.gov.cn/en_szgov/news/latest/content/post_8731543.html",
+      "published": "2021-04-28",
+      "checked": "2026-11-03",
+      "verification": "web search result and/or opened source read; only the limited claims below are supported",
+      "supported_claims": [
+        "Kuichong Hakka chaguo and Nan’ao sea-urchin zongzi are documented local food traditions of Dapeng.",
+        "Hakka chaguo is also called ban in Hakka."
+      ],
+      "authoring_notes": "Use to counter the claim that Shenzhen has no history or local food. Do not give Hakka words as though they are Mandarin pronunciations."
+    },
+    {
+      "id": "gz-morning-tea",
+      "title": "Time-honored restaurants for enjoying morning tea in GZ",
+      "publisher": "Guangzhou municipal media, Huacheng",
+      "url": "https://huacheng.gz-cmc.com/pages/2020/08/27/41a5e008e0aa4c2083de921d76eeeb2d.html",
+      "published": "2020-08-27",
+      "checked": "2026-11-03",
+      "verification": "web search result and/or opened source read; only the limited claims below are supported",
+      "supported_claims": [
+        "Guangzhou has a documented morning-tea restaurant tradition; Tao Tao Ju and Lian Xiang Lou are examples.",
+        "Teahouses carry local culinary history and social significance."
+      ],
+      "authoring_notes": "Use a Guangzhou breakfast meeting as a setting, with asking what to order and inviting recommendations. Do not claim all Cantonese people breakfast this way or that tea etiquette is uniform."
+    },
+    {
+      "id": "cn-business",
+      "title": "Business etiquette in China",
+      "publisher": "Canadian Trade Commissioner Service",
+      "url": "https://www.tradecommissioner.gc.ca/en/market-industry-info/search-country-region/country/canada-china-export/business-etiquette-china.html",
+      "published": null,
+      "checked": "2026-11-03",
+      "verification": "web search result and/or opened source read; only the limited claims below are supported",
+      "supported_claims": [
+        "The guide emphasizes developing relationships, following personal introductions, patience and courteous meetings.",
+        "The guide discusses handling business cards, hosting and rank in formal settings."
+      ],
+      "authoring_notes": "Guidance is general and not a personality test. Teach asking preferred names/titles, following the host and confirming details. Gift and banquet customs do not override consent, company policy or written commercial checks."
+    },
+    {
+      "id": "wx-payment",
+      "title": "Cross-border Spending",
+      "publisher": "TenPay Global, Tencent",
+      "url": "https://www.tenpayglobal.com/en/consumption/?type=card",
+      "published": null,
+      "checked": "2026-11-03",
+      "verification": "web search result and/or opened source read; only the limited claims below are supported",
+      "supported_claims": [
+        "International visitors can link supported international cards to Weixin Pay for supported merchant payments.",
+        "The provider documents QR payment and in-app payment flows."
+      ],
+      "authoring_notes": "Eligibility, fees and limits can change; link the live provider guide and avoid fixed figures. Merchant payment is not a promise of person-to-person transfer or red-envelope access."
+    },
+    {
+      "id": "cn-rail",
+      "title": "12306 FAQ",
+      "publisher": "China Railway",
+      "url": "https://www.12306.cn/en/faq.html",
+      "published": null,
+      "checked": "2026-11-03",
+      "verification": "web search result and/or opened source read; only the limited claims below are supported",
+      "supported_claims": [
+        "The English site supports valid foreign passports for real-name booking.",
+        "Passengers use the ID associated with the ticket for travel; an itinerary or reimbursement receipt is not itself a ticket."
+      ],
+      "authoring_notes": "Use station names and matching passport details in dialogue. Avoid invented departure times, ticket prices or universal assumptions about automatic gates."
+    },
+    {
+      "id": "sz-nantou",
+      "title": "The Nanshan District you cannot miss: Historical sites",
+      "publisher": "Shenzhen Government Online / Shenzhen Daily",
+      "url": "https://www.sz.gov.cn/en_szgov/news/infocus/SZCitywalk/Explore/Districts/NanshanDistrict/content/post_11889388.html",
+      "published": "2024-12-12",
+      "checked": "2026-11-03",
+      "verification": "web search result and/or opened source read; only the limited claims below are supported",
+      "supported_claims": [
+        "Nantou Ancient Town was an administrative and trade center long before modern Shenzhen’s special-economic-zone development.",
+        "Shekou has historic neighborhoods; the Chiwan Tianhou Temple honors Mazu."
+      ],
+      "authoring_notes": "Use a weekend invitation to Nantou or Shekou to connect historical and modern Shenzhen. Do not repeat dubious etymologies as fact; the snake story is explicitly folklore."
+    },
+    {
+      "id": "sz-shekou",
+      "title": "Shekou Subdistrict",
+      "publisher": "Nanshan District Government",
+      "url": "https://www.szns.gov.cn/english/government/subdistricts/content/post_9539885.html",
+      "published": "2022-01-25",
+      "checked": "2026-11-03",
+      "verification": "web search result and/or opened source read; only the limited claims below are supported",
+      "supported_claims": [
+        "Shekou is part of Nanshan, facing Hong Kong across Shenzhen Bay.",
+        "The government profile describes a mixture of registered, non-registered and international residents."
+      ],
+      "authoring_notes": "Use geographic context, not old population totals as current statistics. Never generalize Shekou’s international scene to all Shenzhen neighborhoods."
+    },
+    {
+      "id": "cn-spring-festival",
+      "title": "Spring festival, social practices of the Chinese people in celebration of traditional new year",
+      "publisher": "UNESCO Intangible Cultural Heritage",
+      "url": "https://ich.unesco.org/en/RL/spring-festival-social-practices-of-the-chinese-people-in-celebration-of-traditional-new-year-02126",
+      "published": "2024",
+      "checked": "2026-11-03",
+      "verification": "Full indexed entry text returned by web search was read; direct open returned a JavaScript/CAPTCHA challenge. No challenge bypassed.",
+      "supported_claims": [
+        "The festival includes preparations, family reunion meals and greetings to relatives, friends and neighbors.",
+        "Traditions are transmitted within families and communities and vary in expression."
+      ],
+      "authoring_notes": "Teach asking a colleague about their own holiday plans and agreeing project availability in advance. Do not assume every person goes home or give unverified statutory closure dates."
+    },
+    {
+      "id": "cn-tea",
+      "title": "Traditional tea processing techniques and associated social practices in China",
+      "publisher": "UNESCO Intangible Cultural Heritage",
+      "url": "https://ich.unesco.org/en/RL/traditional-tea-processing-techniques-and-associated-social-practices-in-china-01884",
+      "published": "2022",
+      "checked": "2026-11-03",
+      "verification": "Full indexed entry text returned by web search was read.",
+      "supported_claims": [
+        "Tea drinking and sharing occur in homes, workplaces and teahouses and can support hospitality and social relationships.",
+        "Tea production and social practices differ by locality and community."
+      ],
+      "authoring_notes": "A tea invitation is a context for curiosity and conversation, not evidence a business agreement exists. Avoid attributing one drinking ritual to everyone."
+    },
+    {
+      "id": "sh-xiaolongbao",
+      "title": "Steamed Meat Buns",
+      "publisher": "Shanghai Government / Shanghai Intangible Cultural Heritage Protection Centre",
+      "url": "https://english.shanghai.gov.cn/en-Snack-travelinshanghai/20231214/5e949cf6f7cd4109a903ff1e37e3b7ec.html",
+      "published": "2023-12-14",
+      "checked": "2026-11-03",
+      "verification": "web search result and/or opened source read; only the limited claims below are supported",
+      "supported_claims": [
+        "Shanghai’s Nanxiang tradition includes soup-filled buns called xiaolongbao in Mandarin and xiaolong mantou locally."
+      ],
+      "authoring_notes": "Use regional food terminology to show that familiar words can vary by place. Do not teach all mantou throughout China as filled buns."
+    },
+    {
+      "id": "sz-inclusion",
+      "title": "来了深圳，都是一家人 | 创业篇",
+      "publisher": "Shenzhen municipal publication",
+      "url": "https://tzb.sz.gov.cn/zdzl/llszdsyjr/content/post_1128118.html",
+      "published": "2024-02-19",
+      "checked": "2026-11-03",
+      "verification": "web search result and/or opened source read; only the limited claims below are supported",
+      "supported_claims": [
+        "The city uses the slogan 来了就是深圳人 as part of its civic identity."
+      ],
+      "authoring_notes": "Label this as a civic slogan, not a legal-residency statement or proof that everyone experiences inclusion equally. A character can ask where a colleague grew up rather than assume their home province."
+    },
+    {
+      "id": "cn-business-current",
+      "title": "China: Business Travel",
+      "publisher": "US International Trade Administration",
+      "url": "https://www.trade.gov/country-commercial-guides/china-business-travel",
+      "published": "2025-09-25",
+      "supported_claims": [
+        "The guide describes face-to-face meetings and trust as important to business development.",
+        "It documents both physical business cards and increasing WeChat contact exchange."
+      ],
+      "authoring_notes": "Use this as contemporary business context, not universal rules about individual Chinese people; do not repeat travel/legal guidance without separate checking.",
+      "checked": "2026-11-03",
+      "verification": "Source located and opened with web tool; only listed claims supported"
+    },
+    {
+      "id": "cn-dragon-boat",
+      "title": "Dragon Boat festival",
+      "publisher": "UNESCO Intangible Cultural Heritage",
+      "url": "https://ich.unesco.org/en/RL/dragon-boat-festival-00225",
+      "published": "2009",
+      "supported_claims": [
+        "The festival begins on the fifth day of the fifth lunar month.",
+        "Practices and commemorated figures vary by region; rice dumplings and boat races are among documented traditions."
+      ],
+      "authoring_notes": "No fixed Gregorian date, no assumption that all employees celebrate alike; ask about family practice. Do not present traditional health beliefs as medical facts.",
+      "checked": "2026-11-03",
+      "verification": "Full indexed entry text returned by web search was read; direct open returned a JavaScript/CAPTCHA challenge. No challenge bypassed."
+    },
+    {
+      "id": "cn-tone-sandhi",
+      "title": "Tone Sandhi",
+      "publisher": "Hong Kong Polytechnic University, BEPTH",
+      "url": "https://www.polyu.edu.hk/bepth/introduction-to-phonetics/tones/tone-sandhi/?sc_lang=en",
+      "published": null,
+      "supported_claims": [
+        "In a pair of third tones, the first is pronounced as a second tone while conventionally retaining its written third-tone mark.",
+        "一 and 不 have context-dependent spoken tone changes."
+      ],
+      "authoring_notes": "Course uses citation pinyin with separately labeled spoken forms. This beginner rule is not a complete algorithm for long third-tone sequences.",
+      "checked": "2026-11-03",
+      "verification": "Source located and opened with web tool; only listed claims supported"
+    },
+    {
+      "id": "cd-teahouses",
+      "title": "Teahouse Leisure for Chengdu’s Autumn",
+      "publisher": "GoChengdu / City of Chengdu",
+      "url": "https://www.gochengdu.cn/en/article/happy_life_in_chengdu/4866",
+      "published": "2026-09-28",
+      "supported_claims": [
+        "Heming Teahouse is in Chengdu’s People’s Park and attracts local residents and visitors.",
+        "Daqi Teahouse occupies a converted lacquerware craft factory and includes a lacquerware exhibition upstairs.",
+        "Yuelai Tea Garden combines tea with Sichuan opera."
+      ],
+      "authoring_notes": "Teach different local spaces and invitations. Do not imply Chengdu residents all have one personality; avoid current hours or prices.",
+      "checked": "2026-11-03",
+      "verification": "Full primary-source page opened and read; claims restricted to listed facts."
+    },
+    {
+      "id": "cd-teahouse-social",
+      "title": "The Chengdu teahouse and the good life",
+      "publisher": "Australian Consulate-General Chengdu, firsthand blog",
+      "url": "https://chengdu.china.embassy.gov.au/cxdu/hopblog30.html",
+      "published": "2019-07-30",
+      "supported_claims": [
+        "The author describes Chengdu teahouses as social spaces for conversation, games, reading and performances.",
+        "Teahouses vary in setting and formality, including neighborhood streets, parks and temples."
+      ],
+      "authoring_notes": "Use firsthand descriptions, not the author’s universalized conclusions about what an invitation means. No old prices or historical claims from secondary references.",
+      "checked": "2026-11-03",
+      "verification": "Full primary-source page opened and read; claims restricted to listed facts."
+    },
+    {
+      "id": "dg-manufacturing",
+      "title": "制造名城 — 东莞“质量强市”诠释发展跃迁",
+      "publisher": "Dongguan Municipal Government",
+      "url": "https://www.dg.gov.cn/zjdz/csts/zzmc/index.html",
+      "published": "2025-11-25",
+      "supported_claims": [
+        "Dongguan’s manufacturing includes electronic components and finished devices.",
+        "Chang’an has phone-component, hardware and mold-making industries.",
+        "Houjie has a furniture industry and exhibition activity."
+      ],
+      "authoring_notes": "Extract limited geographic context from municipal promotional reporting. Do not reproduce superlatives or imply locality certifies a supplier’s quality. Factory-visit and verification advice is original teaching.",
+      "checked": "2026-11-03",
+      "verification": "Full primary-source page opened and read; claims restricted to listed facts."
+    }
+  ]
+}

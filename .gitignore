@@ -13,6 +13,6 @@ research/private/
 research/source-data/
 .vercel
 
-# US bar exam: copyrighted commercial outlines, released NCBE questions and raw dumps stay local
+# Raw third-party references and recovered downloads stay local
 research/source-data/
 research/pastquestions-raw/
