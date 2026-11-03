@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-03",
+  "reviewer": "Orchestrator source-fidelity review",
+  "appCssExactPrefix": true,
+  "appCssSourceBytes": 39910,
+  "publicPageCssExactCopy": true,
+  "owlAssetExactCopy": true,
+  "ogStyleExactCopy": false,
+  "componentAudit": [
+    "Existing .options/.opt for answer choices",
+    "Existing .slots/.bank/.chip for sentence building",
+    "Existing .match/.mcol/.mbtn for matching",
+    "Existing .typein for pinyin entry",
+    "Existing .bucketcard/.buckets/.bucketbtn for sorting",
+    "Existing .lesson/.lesson-inner/.stage and .footer/.footer-inner/.fb-body",
+    "Existing onboarding, goalring, six quick tiles, via milestone path and Learn/Words/Me tabs"
+  ],
+  "allowedAdapters": [
+    "Chinese font fallbacks and bilingual line stacking",
+    "English labels and Mandarin content",
+    "Existing progress migration into reused onboarding",
+    "Scrollable long bilingual explanations and wrapping longer translated labels"
+  ],
+  "remainingGate": "Root browser comparison and final deployment; no independent aesthetics introduced by this correction.",
+  "ogStyleMatchesAfterCjkFallback": true,
+  "ogStyleAllowedFallbackNote": "The only OG style difference from Gnothi is the Mandarin question font stack adding PingFang SC and Microsoft YaHei after Noto Serif; answer options use the exact source Noto Serif stack."
+}
