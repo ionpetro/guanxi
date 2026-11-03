@@ -10,3 +10,4 @@
 /* The journal cover and call-to-action keep reliable contrast in both themes. */
 .hero{background:#104a3e;color:#f8f4e9}.primary{background:#af3e33;color:#fff;box-shadow:3px 4px 0 #772a25}.primary:hover:not(:disabled){box-shadow:3px 6px 0 #772a25}
 .site-foot{max-width:1120px;margin:0 auto 35px;border-top:1px solid var(--line);padding:22px 20px 35px;display:flex;flex-wrap:wrap;gap:7px 18px;align-items:center;color:var(--muted);font-size:.75rem}.site-foot a{color:var(--muted);text-decoration:none;font-weight:800}.site-foot a:hover{color:var(--jade)}
+.sort-review{padding-left:19px;font-size:.9rem}.sort-review li{margin:6px 0}

@@ -133,6 +133,23 @@ const Engine = (() => {
   function buildSpeed(ix,s,today,seed=1){return fromIds(ix,pool(ix,s,today,false).filter(id=>['word','character','tone'].includes(ix.items.get(id).kind)),seed,'review',10);}
   function buildListening(ix,s,seed=1){const r=rng(seed);return shuffle(learned(ix,s).filter(id=>['word','character'].includes(ix.items.get(id).kind)),r).slice(0,8).map(id=>({...question(ix.items.get(id),r,'review'),type:'listen',label:'Listen and understand'}));}
   function buildAssessment(ix,s,unitId,seed=1){const u=ix.unitById.get(unitId);if(!u)return[];const source=(u.assessment&&u.assessment.length?u.assessment:u.lessons.flatMap(l=>l.items||[]));const ids=source.filter(it=>it.kind==='scenario'&&quizzable(it)).map(it=>it.id);return fromIds(ix,ids,seed,'transfer',10);}
+  const SORT_SETS=[
+    {buckets:['Conversation','Movement'],groups:[['Conversation',['你好','请','谢谢']],['Movement',['来','走']]]},
+    {buckets:['People at work','Contact details'],groups:[['People at work',['同事','供应商','经理']],['Contact details',['电话','号码','微信']]]},
+    {buckets:['Places','Times'],groups:[['Places',['车站','出口','地铁']],['Times',['今天','明天','几点']]]},
+    {buckets:['Food','Drinks'],groups:[['Food',['米饭','面条','菜']],['Drinks',['茶','水','咖啡']]]},
+    {buckets:['Message forms','Actions'],groups:[['Message forms',['文字','语音','照片']],['Actions',['发送','回复','分享']]]},
+    {buckets:['Counting units','Price language'],groups:[['Counting units',['个','件','盒']],['Price language',['元','价格','多少钱']]]},
+    {buckets:['Team and roles','Work processes'],groups:[['Team and roles',['团队','助理','部门']],['Work processes',['测试','生产','检查']]]}
+  ];
+  function buildSort(ix,s,seed=1){
+    const known=learned(ix,s).map(id=>ix.items.get(id)).filter(it=>it.kind==='word');
+    const candidates=[];
+    for(const set of SORT_SETS){const entries=[];for(const [bucket,hanzi] of set.groups)for(const hz of hanzi){const it=known.find(x=>x.hanzi===hz);if(it)entries.push({text:`${it.hanzi} (${it.pinyin})`,bucket,why:`${it.meaning} belongs with ${bucket.toLowerCase()}.`});}
+      if(entries.length>=4&&set.buckets.every(b=>entries.some(e=>e.bucket===b)))candidates.push({set,entries});}
+    if(!candidates.length)return null;const r=rng(seed),selected=candidates[Math.floor(r()*candidates.length)];
+    return {type:'sort',itemId:null,kind:'sort',label:'Sort what you know',title:'Words in context',prompt:'Sort these learned words by meaning.',buckets:selected.set.buckets,entries:shuffle(selected.entries,r).map((e,i)=>({...e,key:i})),explain:'Use the meaning of each word in this lesson context.'};
+  }
   function buildMatch(ix,s,today,seed=1){const r=rng(seed),words=[],hanzi=new Set(),meanings=new Set();for(const it of shuffle(learned(ix,s).map(id=>ix.items.get(id)).filter(it=>['word','character'].includes(it.kind)),r)){const h=norm(it.hanzi),m=norm(it.meaning);if(hanzi.has(h)||meanings.has(m))continue;hanzi.add(h);meanings.add(m);words.push(it);if(words.length===5)break;}return words.length>=3?{type:'match',itemId:null,kind:'pairs',label:'Match',prompt:'Match the words',pairs:words.map((it,i)=>({key:i,hanzi:it.hanzi,pinyin:it.pinyin,meaning:it.meaning})),say:'Match the words you have learned.'}:null;}
   function recommended(ix,s){return ix.lessons.find(l=>!s.done[l.id])||ix.lessons[0]||null;}
   function progress(ix,s){const done=ix.lessons.filter(l=>!!s.done[l.id]).length;return {done,total:ix.lessons.length,percent:ix.lessons.length?Math.round(done/ix.lessons.length*100):0,learned:learned(ix,s).length};}
@@ -140,6 +157,6 @@ const Engine = (() => {
   function recordLesson(ix,s,lessonId,today,perfect=false){s.done[lessonId]={at:today,perfect:!!perfect};touchStreak(s,today);addXp(s,today,10);return awardBadges(ix,s,today);}
   function recordPractice(ix,s,today,xp=5){touchStreak(s,today);addXp(s,today,xp);return awardBadges(ix,s,today);}
   function recordAssessment(ix,s,unitId,today,score,total){s.assessments.push({unitId,at:today,score,total});s.assessments=s.assessments.slice(-100);return recordPractice(ix,s,today,Math.max(5,score*2));}
-  return {KINDS,INTERVALS,GOALS,RANKS,BADGES,dayKey,parseDay,addDays,daysBetween,weekKey,missedWeekdays,freshState,repairState,touchStreak,liveStreak,addXp,rankOf,indexCourse,norm,pinyinKey,acceptsPinyin,rng,shuffle,uniqueOptions,question,teachable,quizzable,lessonSittings,buildLesson,learn,grade,dueItems,learned,pool,buildReview,buildDaily,buildSpeed,buildListening,buildAssessment,buildMatch,recommended,progress,awardBadges,recordLesson,recordPractice,recordAssessment};
+  return {KINDS,INTERVALS,GOALS,RANKS,BADGES,dayKey,parseDay,addDays,daysBetween,weekKey,missedWeekdays,freshState,repairState,touchStreak,liveStreak,addXp,rankOf,indexCourse,norm,pinyinKey,acceptsPinyin,rng,shuffle,uniqueOptions,question,teachable,quizzable,lessonSittings,buildLesson,learn,grade,dueItems,learned,pool,buildReview,buildDaily,buildSpeed,buildListening,buildAssessment,buildMatch,buildSort,recommended,progress,awardBadges,recordLesson,recordPractice,recordAssessment};
 })();
 if(typeof module!=='undefined')module.exports={Engine};
