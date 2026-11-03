@@ -54,3 +54,8 @@ Same recipe as Carpe: Research → Curriculum → Engine → Content (write + 2 
 - Same build as the Greek apps. **Fable orchestrates** (curriculum, engine, final review); **Opus builds** (research, writing, checking, fixing, QA, deploy).
 - The 14 units above are a starting point; the Fable curriculum step rebalances them around culture.
 - Folder renamed to `experiments/mandarin`. Base engine copied from Objection (English sibling of Carpe).
+
+## Goal (2026-11-03, the user's words)
+"I want this so that I can do business with Chinese, understand them and build relationships. I admire Shenzhen and wanna go back."
+- The course is about building trust and long-term relationships with Chinese partners, not just vocabulary.
+- **Shenzhen is home base:** a running storyline and cast set in real Shenzhen places (Huaqiangbei, Nanshan, Futian, Shekou), with trips to other cities. The last unit is a return trip to Shenzhen.
