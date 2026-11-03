@@ -1,0 +1,50 @@
+<!doctype html>
+<!-- The share card, 1200x630. Render it to og.png with:
+     "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --headless=new --user-data-dir=/tmp/objection-chrome --screenshot=app/brand/og.png --window-size=1200,630 --hide-scrollbars "file://$PWD/app/brand/og.html"
+     (or run `node app/brand/render.mjs`). -->
+<html lang="en"><head><meta charset="utf-8">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,600&family=Nunito+Sans:opsz,wght@6..12,700;6..12,900&family=Literata:opsz,wght@7..72,600&display=swap">
+<style>
+  :root { --bg:#f6f1e7; --ink:#1e1a16; --muted:#6f655a; --brand:#1f2f52; --brand-soft:#e5eaf4; --brass:#c9962b; --brass-soft:#f8edd1; --ok:#3f7d4e; --ok-soft:#e1efe3; --oak:#8a5a2b; --line:#ddd2bf; }
+  * { box-sizing:border-box; margin:0; }
+  html,body { width:1200px; height:630px; overflow:hidden; }
+  body { background:var(--bg); color:var(--ink); font-family:"Nunito Sans",sans-serif; font-feature-settings:"lnum"; position:relative; }
+  .wood { position:absolute; inset:0 0 auto; height:28px; background:repeating-linear-gradient(90deg,#8a5a2b 0 180px,#7a4f25 180px 360px); }
+  .wood.b { inset:auto 0 0; }
+  .left { position:absolute; left:80px; top:88px; width:620px; }
+  .word { font-family:Fraunces,serif; font-weight:700; font-size:118px; line-height:.9; color:var(--brand); letter-spacing:-2px; }
+  .tag { font-family:Fraunces,serif; font-style:italic; font-weight:600; font-size:40px; color:var(--oak); margin-top:22px; }
+  .lede { font-weight:700; font-size:24px; color:var(--muted); margin-top:26px; line-height:1.35; width:560px; }
+  .chips { display:flex; flex-wrap:wrap; gap:12px; margin-top:34px; }
+  .chip { font-weight:900; font-size:20px; background:#fff; border:2px solid var(--line); border-radius:16px; padding:10px 16px; box-shadow:0 3px 0 var(--line); }
+  .chip span { color:var(--brand); }
+  .chip.os { background:var(--brand); color:#fff; border-color:var(--brand); box-shadow:0 3px 0 #121d36; }
+  .chip.os span { color:var(--brass); }
+  .card { position:absolute; right:80px; top:96px; width:420px; background:#fff; border-radius:28px; padding:26px 26px 22px; box-shadow:0 30px 60px rgba(40,30,10,.18), 0 6px 0 var(--line); transform:rotate(2deg); }
+  .lab { font-size:12px; letter-spacing:.08em; text-transform:uppercase; font-weight:900; color:var(--brand); }
+  .stem { font-family:Literata,serif; font-size:15.5px; line-height:1.5; margin-top:10px; border-left:4px solid var(--oak); padding-left:12px; color:#2a2520; }
+  .call { font-family:Literata,serif; font-weight:600; font-size:17px; margin-top:12px; }
+  .opt { display:flex; gap:10px; align-items:flex-start; margin-top:9px; border:2px solid var(--line); border-radius:12px; padding:9px 12px; font-family:Literata,serif; font-size:13.5px; line-height:1.35; }
+  .opt .k { font-family:"Nunito Sans",sans-serif; font-weight:900; font-size:12px; width:22px; height:22px; border:2px solid var(--line); border-radius:7px; display:grid; place-items:center; flex:none; color:var(--muted); }
+  .opt.right { border-color:var(--ok); background:var(--ok-soft); }
+  .opt.right .k { border-color:var(--ok); color:var(--ok); }
+  .ami { position:absolute; right:60px; bottom:48px; width:150px; }
+</style></head><body>
+<div class="wood"></div><div class="wood b"></div>
+<div class="left">
+  <div class="word">Objection</div>
+  <div class="tag">Objection sustained. Bar passed.</div>
+  <div class="lede">MBE prep the way the examiners write it: real fact patterns, four options, the best answer, every distractor explained. Ten minutes a day.</div>
+  <div class="chips"><div class="chip"><span>7</span> subjects</div><div class="chip">Spot the <span>issue</span> first</div><div class="chip"><span>Cross-</span>Examination</div><div class="chip os"><span>Free</span> forever</div></div>
+</div>
+<div class="card">
+  <div class="lab">Best answer · Evidence</div>
+  <div class="stem">A pedestrian sued a delivery company after one of its vans struck her in a crosswalk. The company offers the driver's supervisor, who rode along forty times over six years and saw the driver stop at that sign every time. The pedestrian objects.</div>
+  <div class="call">Is the testimony admissible?</div>
+  <div class="opt"><span class="k">A</span>No, because the supervisor did not witness the collision.</div>
+  <div class="opt right"><span class="k">B</span>Yes, because evidence of a person's habit is admissible to prove conduct in conformity with it.</div>
+  <div class="opt"><span class="k">C</span>Yes, because a civil defendant may offer its employee's good character.</div>
+  <div class="opt"><span class="k">D</span>No, because prior conduct is never admissible to prove conduct on an occasion.</div>
+</div>
+<svg class="ami" viewBox="0 0 130 116"><ellipse cx="65" cy="108" rx="46" ry="5" fill="#ddd2bf"/><path d="M102 92q14 4 20-6t2-16" stroke="#9d7a4f" stroke-width="6" stroke-linecap="round" fill="none"/><ellipse cx="65" cy="84" rx="42" ry="25" fill="#9d7a4f"/><path d="M27 72q38 12 76 0M25 82q40 13 80 0M29 93q36 11 72 0" stroke="#6f4f2c" stroke-width="3.2" fill="none" stroke-linecap="round" opacity="0.85"/><path d="M30 78q-12-8-8-24" stroke="#c7a77c" stroke-width="7" stroke-linecap="round" fill="none"/><path d="M100 78q12-8 8-24" stroke="#c7a77c" stroke-width="7" stroke-linecap="round" fill="none"/><ellipse cx="50" cy="26" rx="5.2" ry="11" transform="rotate(-14 50 26)" fill="#c7a77c"/><ellipse cx="80" cy="26" rx="5.2" ry="11" transform="rotate(14 80 26)" fill="#c7a77c"/><ellipse cx="50.5" cy="27" rx="2.4" ry="7" transform="rotate(-14 50.5 27)" fill="#d98a7e" opacity="0.55"/><ellipse cx="79.5" cy="27" rx="2.4" ry="7" transform="rotate(14 79.5 27)" fill="#d98a7e" opacity="0.55"/><path d="M44 44q0-20 21-20t21 20q0 20-14 34q-4 5-7 7q-3-2-7-7q-14-14-14-34z" fill="#c7a77c"/><path d="M46 37q19-11 38 0l-1.5 4.5q-17.5-9.5-35 0z" fill="#9d7a4f"/><path d="M48.5 31.5q16.5-8.5 33 0" stroke="#6f4f2c" stroke-width="2.2" fill="none" stroke-linecap="round" opacity="0.8"/><path d="M54 62q11-6 22 0q-1 14-11 22q-10-8-11-22z" fill="#e8d8bd"/><ellipse cx="65" cy="72" rx="4.6" ry="3.4" fill="#2b2420"/><circle cx="63.6" cy="71" r="1.1" fill="#fff" opacity="0.7"/><circle cx="56" cy="50" r="3.2" fill="#2b2420"/><circle cx="74" cy="50" r="3.2" fill="#2b2420"/><circle cx="57.2" cy="48.8" r="1.1" fill="#fff"/><circle cx="75.2" cy="48.8" r="1.1" fill="#fff"/><path d="M58.5 78q6.5 7.5 13 0z" fill="#2b2420"/><path d="M62 80.5q3 3 6 0z" fill="#d98a7e"/><path d="M53 88l12 3.5 12-3.5v9l-12-3.5-12 3.5z" fill="#1f2f52"/><circle cx="65" cy="92" r="2.6" fill="#c9962b"/></svg>
+</body></html>

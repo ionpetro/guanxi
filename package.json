@@ -1,0 +1,15 @@
+{
+  "name": "guanxi",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Guanxi: Mandarin and Chinese culture, for work and life.",
+  "license": "MIT",
+  "type": "commonjs",
+  "scripts": {
+    "test": "node --test \"app/test/*.test.js\"",
+    "validate": "node app/tools/validate.js",
+    "build": "node app/build.mjs",
+    "og": "node app/brand/render.mjs",
+    "build:example": "GUANXI_INCLUDE_EXAMPLE=1 node app/build.mjs"
+  }
+}
