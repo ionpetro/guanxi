@@ -1,0 +1,365 @@
+{
+  "date": "2026-11-03",
+  "request": "Add the GitHub star prompt at the top right of every learning app.",
+  "design": "Reused the existing Skepsis pill, star glyph and family colors. Existing wordmark and stats wrap independently of the right-hand star when space is tight. Welcome and main screens share the same header; lesson overlays are unchanged.",
+  "narrowPhone": [
+    {
+      "app": "skepsis",
+      "headerHeight": 97.75,
+      "href": "https://github.com/ionpetro/skepsis",
+      "label": "Star Skepsis on GitHub",
+      "scrollWidth": 320,
+      "starRight": 296,
+      "starTop": 20,
+      "starVisible": true,
+      "width": 320
+    },
+    {
+      "app": "carpe",
+      "headerHeight": 52.75,
+      "href": "https://github.com/ionpetro/carpe",
+      "label": "Βάλε αστέρι στο Carpe στο GitHub",
+      "scrollWidth": 320,
+      "starRight": 304,
+      "starTop": 10,
+      "starVisible": true,
+      "width": 320
+    },
+    {
+      "app": "gnothi",
+      "headerHeight": 52.75,
+      "href": "https://github.com/ionpetro/gnothi",
+      "label": "Βάλε αστέρι στο Gnothi στο GitHub",
+      "scrollWidth": 320,
+      "starRight": 304,
+      "starTop": 10,
+      "starVisible": true,
+      "width": 320
+    },
+    {
+      "app": "objection",
+      "headerHeight": 88.75,
+      "href": "https://github.com/ionpetro/objection",
+      "label": "Star Objection on GitHub",
+      "scrollWidth": 320,
+      "starRight": 304,
+      "starTop": 10,
+      "starVisible": true,
+      "width": 320
+    },
+    {
+      "app": "agora",
+      "headerHeight": 52.75,
+      "href": "https://github.com/ionpetro/agora",
+      "label": "Star Agora on GitHub",
+      "scrollWidth": 320,
+      "starRight": 304,
+      "starTop": 10,
+      "starVisible": true,
+      "width": 320
+    },
+    {
+      "app": "oikos",
+      "headerHeight": 52.75,
+      "href": "https://github.com/ionpetro/oikos",
+      "label": "Star Oikos on GitHub",
+      "scrollWidth": 320,
+      "starRight": 304,
+      "starTop": 10,
+      "starVisible": true,
+      "width": 320
+    },
+    {
+      "app": "guanxi",
+      "headerHeight": 88.75,
+      "href": "https://github.com/ionpetro/guanxi",
+      "label": "Star Guanxi on GitHub",
+      "scrollWidth": 320,
+      "starRight": 304,
+      "starTop": 10,
+      "starVisible": true,
+      "width": 320
+    }
+  ],
+  "phoneAndDesktop": [
+    {
+      "app": "skepsis",
+      "scrollWidth": 390,
+      "starRight": 366,
+      "starText": "Star",
+      "starVisible": true,
+      "width": 390
+    },
+    {
+      "app": "carpe",
+      "scrollWidth": 390,
+      "starRight": 374,
+      "starText": "Star",
+      "starVisible": true,
+      "width": 390
+    },
+    {
+      "app": "gnothi",
+      "scrollWidth": 390,
+      "starRight": 374,
+      "starText": "Star",
+      "starVisible": true,
+      "width": 390
+    },
+    {
+      "app": "objection",
+      "scrollWidth": 390,
+      "starRight": 374,
+      "starText": "Star",
+      "starVisible": true,
+      "width": 390
+    },
+    {
+      "app": "agora",
+      "scrollWidth": 390,
+      "starRight": 374,
+      "starText": "Star",
+      "starVisible": true,
+      "width": 390
+    },
+    {
+      "app": "oikos",
+      "scrollWidth": 390,
+      "starRight": 374,
+      "starText": "Star",
+      "starVisible": true,
+      "width": 390
+    },
+    {
+      "app": "guanxi",
+      "scrollWidth": 390,
+      "starRight": 374,
+      "starText": "Star",
+      "starVisible": true,
+      "width": 390
+    },
+    {
+      "app": "skepsis",
+      "scrollWidth": 1280,
+      "starRight": 904,
+      "starText": "Star",
+      "starVisible": true,
+      "width": 1280
+    },
+    {
+      "app": "carpe",
+      "scrollWidth": 1280,
+      "starRight": 904,
+      "starText": "Star",
+      "starVisible": true,
+      "width": 1280
+    },
+    {
+      "app": "gnothi",
+      "scrollWidth": 1280,
+      "starRight": 904,
+      "starText": "Star",
+      "starVisible": true,
+      "width": 1280
+    },
+    {
+      "app": "objection",
+      "scrollWidth": 1280,
+      "starRight": 904,
+      "starText": "Star",
+      "starVisible": true,
+      "width": 1280
+    },
+    {
+      "app": "agora",
+      "scrollWidth": 1280,
+      "starRight": 904,
+      "starText": "Star",
+      "starVisible": true,
+      "width": 1280
+    },
+    {
+      "app": "oikos",
+      "scrollWidth": 1280,
+      "starRight": 904,
+      "starText": "Star",
+      "starVisible": true,
+      "width": 1280
+    },
+    {
+      "app": "guanxi",
+      "scrollWidth": 1280,
+      "starRight": 904,
+      "starText": "Star",
+      "starVisible": true,
+      "width": 1280
+    }
+  ],
+  "largeProgressFixtures": [
+    {
+      "app": "objection",
+      "scrollWidth": 320,
+      "starRight": 304,
+      "stats": "9999\n        2\n        999999999",
+      "width": 320
+    },
+    {
+      "app": "guanxi",
+      "scrollWidth": 320,
+      "starRight": 304,
+      "stats": "99992999999999",
+      "width": 320
+    }
+  ],
+  "afterOnboarding": [
+    {
+      "app": "skepsis",
+      "headerStar": true,
+      "href": "https://github.com/ionpetro/skepsis",
+      "onboarding": false,
+      "errors": []
+    },
+    {
+      "app": "carpe",
+      "headerStar": true,
+      "href": "https://github.com/ionpetro/carpe",
+      "onboarding": false,
+      "errors": []
+    },
+    {
+      "app": "gnothi",
+      "headerStar": true,
+      "href": "https://github.com/ionpetro/gnothi",
+      "onboarding": false,
+      "errors": []
+    },
+    {
+      "app": "objection",
+      "headerStar": true,
+      "href": "https://github.com/ionpetro/objection",
+      "onboarding": false,
+      "errors": []
+    },
+    {
+      "app": "agora",
+      "headerStar": true,
+      "href": "https://github.com/ionpetro/agora",
+      "onboarding": false,
+      "errors": []
+    },
+    {
+      "app": "oikos",
+      "headerStar": true,
+      "href": "https://github.com/ionpetro/oikos",
+      "onboarding": false,
+      "errors": []
+    },
+    {
+      "app": "guanxi",
+      "headerStar": true,
+      "href": "https://github.com/ionpetro/guanxi",
+      "onboarding": false,
+      "errors": []
+    }
+  ],
+  "productionBrowser": [
+    {
+      "app": "skepsis",
+      "href": "https://github.com/ionpetro/skepsis",
+      "label": "Star Skepsis on GitHub",
+      "starVisible": true,
+      "visible": true
+    },
+    {
+      "app": "carpe",
+      "href": "https://github.com/ionpetro/carpe",
+      "label": "Βάλε αστέρι στο Carpe στο GitHub",
+      "starVisible": true,
+      "visible": true
+    },
+    {
+      "app": "gnothi",
+      "href": "https://github.com/ionpetro/gnothi",
+      "label": "Βάλε αστέρι στο Gnothi στο GitHub",
+      "starVisible": true,
+      "visible": true
+    },
+    {
+      "app": "objection",
+      "href": "https://github.com/ionpetro/objection",
+      "label": "Star Objection on GitHub",
+      "starVisible": true,
+      "visible": true
+    },
+    {
+      "app": "agora",
+      "href": "https://github.com/ionpetro/agora",
+      "label": "Star Agora on GitHub",
+      "starVisible": true,
+      "visible": true
+    },
+    {
+      "app": "oikos",
+      "href": "https://github.com/ionpetro/oikos",
+      "label": "Star Oikos on GitHub",
+      "starVisible": true,
+      "visible": true
+    },
+    {
+      "app": "guanxi",
+      "href": "https://github.com/ionpetro/guanxi",
+      "label": "Star Guanxi on GitHub",
+      "starVisible": true,
+      "visible": true
+    }
+  ],
+  "limits": "Large progress totals were simulated only in isolated temporary local HTML fixtures; no learner data or production state was replaced. No GitHub stars were submitted.",
+  "productionHttp": [
+    {
+      "app": "skepsis",
+      "matches_build": true,
+      "production_sha256": "5d365e17ceddc85120308e76087474589c792cd57ed794e46798351a005269f9"
+    },
+    {
+      "app": "carpe",
+      "matches_build": true,
+      "production_sha256": "1824655b7f9cd60da3b4a3c893a7d452dae93c5604fd9813fc526187ecd9f3de"
+    },
+    {
+      "app": "gnothi",
+      "matches_build": true,
+      "production_sha256": "b31c9e7bf85cfab1438181bbccb762774d5e1423df9081163819c40c58996ca7"
+    },
+    {
+      "app": "objection",
+      "matches_build": true,
+      "production_sha256": "eb870ca97eac5904d6091cf21a180edfeb2005ff19990d6eb5250f00b66c099a"
+    },
+    {
+      "app": "agora",
+      "matches_build": true,
+      "production_sha256": "4fc04211b4d2c75d1dc2a0b2dd141805db1302399145c2f7229005c242425474"
+    },
+    {
+      "app": "oikos",
+      "matches_build": true,
+      "production_sha256": "a5d31d4bab44755d82c1c39fa4348f2144b10d6cf39586d46a45267f745b4ecd"
+    },
+    {
+      "app": "guanxi",
+      "matches_build": true,
+      "production_sha256": "74b58d30e40638f4e54dfb21672c779fd9d091037a7754692ecdc5fd555c2666"
+    }
+  ],
+  "codeCommits": {
+    "skepsis": "41182d6",
+    "carpe": "2dc9810",
+    "gnothi": "4a18a79",
+    "objection": "23d6f04",
+    "agora": "46469a8",
+    "oikos": "be559b8",
+    "guanxi": "2419b4d"
+  },
+  "validation": "All seven JavaScript syntax and production builds passed; each deployed home returned HTTP200 and exactly matched its local build. The existing Guanxi stylesheet-fidelity test passed. No new tests added for the prompt-only change.",
+  "github": "All seven public ionpetro repositories contain the changes; Skepsis also pushed to its existing JobMachine mirror. Guanxi repository created under the established family naming convention."
+}
