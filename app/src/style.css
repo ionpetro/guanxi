@@ -495,3 +495,14 @@ body.run-open { overflow: hidden; } /* the page behind a run must not scroll und
 .fb-body { max-height: 28vh; overflow-y: auto; }
 .sitenote a { color: var(--brand); text-decoration: none; }
 @media (max-width: 410px) { .setting { flex-wrap: wrap; } .setting select { max-width: 100%; } }
+
+/* Family GitHub star prompt: retain its star on compact screens. */
+@media (max-width: 430px) { .gh-label { display: inline-flex; } .gh-text { display: none; } }
+
+/* Keep the existing header groups flexible and the star in its right column. */
+.topbar-main { display: flex; align-items: center; gap: inherit; flex: 1; min-width: 0; flex-wrap: wrap; }
+.topbar > .gh { align-self: flex-start; }
+.topbar-main > .stats { max-width: 100%; flex-wrap: wrap; }
+.topbar-main .stat { min-width: 0; max-width: 100%; }
+.topbar-main .stat > span { min-width: 0; overflow-wrap: anywhere; }
+@media (max-width: 380px) { .topbar > .gh > svg { display: none; } }

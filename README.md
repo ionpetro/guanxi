@@ -6,7 +6,7 @@ The interface is English. Chinese uses simplified characters, pinyin and English
 
 **Course:** 14 units and 70 lessons, with 450 word/phrase/character entries, 70 original sentence builds, cultural context, grammar, 28 separately held-out scenario questions, 14 original dialogue scenes and speak-aloud field missions. Some words recur in later situations; an entry count is not a claim that every entry is a new word. The course teaches practical foundations, not fluency or HSK/BCT certification.
 
-**Live course:** [guanxi-mandarin.vercel.app](https://guanxi-mandarin.vercel.app/) — published and verified on 2026-11-03. The app, About page and glossary return successfully. This is a local project; no GitHub repository was created or pushed.
+**Live course:** [guanxi-mandarin.vercel.app](https://guanxi-mandarin.vercel.app/) — published and verified on 2026-11-03. The app, About page and glossary return successfully. The MIT-licensed source is at [ionpetro/guanxi](https://github.com/ionpetro/guanxi). The top-right star prompt uses the same component as the other family apps, including the welcome screen.
 
 ## Learn with it
 

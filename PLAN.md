@@ -6,7 +6,7 @@ Astra orchestrates and Sol builds, as requested. The original stopped run contai
 
 ## Accepted direction
 
-English interface; beginner entry point; simplified Chinese and pinyin; Shenzhen recurring cast and real places; other cities as contrasts. Guanxi is the working name. The user requires reuse of the existing Greek/Latin product design; Gnothi's stylesheet, owl, icons and components are the literal template. Free/no login/local progress/no analytics. No paid external AI calls. The Vercel project is `guanxi-mandarin`; each update is deployed after QA. No GitHub repository creation or push.
+English interface; beginner entry point; simplified Chinese and pinyin; Shenzhen recurring cast and real places; other cities as contrasts. Guanxi is the working name. The user requires reuse of the existing Greek/Latin product design; Gnothi's stylesheet, owl, icons and components are the literal template. Free/no login/local progress/no analytics. No paid external AI calls. The Vercel project is `guanxi-mandarin`; each update is deployed after QA. The initial delivery had no GitHub repository. The subsequent family-wide star-button request extends the delivery to a matching public `ionpetro/guanxi` repository.
 
 ## Seven phases and evidence
 
@@ -30,3 +30,8 @@ Published at https://guanxi-mandarin.vercel.app/ under the intended Vercel proje
 The user then required the existing product design without new aesthetic decisions. Guanxi now copies Gnothi's baseline stylesheet, light/dark colors, owl, icons, onboarding, narrow app frame, Learn/Words/Me tabs, milestone path, practice stage and bottom feedback. Its public pages and sharing image use the same source templates. Mandarin typography and existing exercises are adapted to those components. See `research/reviews/family-design-reuse.md` and `family-template-manifest.json` for the source audit.
 
 The replacement was published to the same address on 2026-11-03 from code checkpoint `ec0bb83`, with production deployment `guanxi-mandarin-mxq4nfvt8-ion-petropoulos-projects.vercel.app`. All 21 project tests, three independent learning checks, validation and build passed. Root verified the new interface and first lesson in production; home/About/glossary returned HTTP 200 and the published index matched the local build byte for byte. Current screenshots and browser checks replace the former visual evidence; the old QA is explicitly retained as a historical checkpoint. Curriculum and engine files are unchanged by the design correction. No GitHub push was performed.
+
+
+## Family GitHub star prompt
+
+The user requested a top-right GitHub star prompt in every learning app and directed us to resolve the repository from the Job Machine folder. The family convention is one public MIT repository per product under `ionpetro`; Guanxi uses `ionpetro/guanxi`. The existing Skepsis star pill is reused on the main header and welcome screen. Its star remains visible on narrow phones, while existing progress counters wrap if needed. No new learning or analytics behavior is added.
