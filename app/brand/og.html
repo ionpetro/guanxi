@@ -1,1 +1,73 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><style>*{box-sizing:border-box}body{margin:0;width:1200px;height:630px;background:#f7f2e8;color:#183c35;font-family:Georgia,serif;overflow:hidden}.field{position:absolute;inset:22px;border:2px solid #176b58;border-radius:12px}.red{position:absolute;right:0;top:0;background:#bf493d;width:435px;height:630px;clip-path:polygon(29% 0,100% 0,100% 100%,0 100%)}.red:after{content:'深';font-size:450px;color:#d3695b;position:absolute;right:-95px;bottom:-85px;opacity:.55}.seal{position:absolute;top:65px;left:65px;background:#bf493d;color:#fff;width:76px;height:76px;border-radius:8px 8px 28px 8px;display:grid;place-items:center;font-size:51px}.eyebrow{position:absolute;left:160px;top:83px;font:bold 20px/1 Verdana,sans-serif;letter-spacing:6px;color:#bf493d}.title{position:absolute;left:70px;top:175px;font-size:126px;font-weight:bold;letter-spacing:-7px}.line{position:absolute;left:73px;top:331px;width:70px;height:5px;background:#bf493d}.tag{position:absolute;left:70px;top:380px;font-size:48px;width:710px;line-height:1.1}.minor{position:absolute;left:73px;top:548px;font:700 23px Verdana,sans-serif;letter-spacing:3px;color:#5d7169}.bird{position:absolute;left:850px;top:115px;width:265px;height:350px;filter:drop-shadow(7px 13px 2px rgba(25,40,35,.22))}</style></head><body><div class="red"></div><div class="field"></div><div class="seal">关</div><div class="eyebrow">FIELD JOURNAL · SHENZHEN</div><div class="title">guanxi</div><div class="line"></div><div class="tag">Mandarin for meaningful connections.</div><div class="minor">LEARN · LISTEN · RETURN</div><svg class="bird" viewBox="0 0 150 170"><path d="M43 143q-23-5-19-30 2-14 16-13 22 3 28 21" fill="#e8e1d1" stroke="#264f47" stroke-width="3"/><path d="M58 133q-4-35 14-70 5-14 9-25" fill="none" stroke="#264f47" stroke-width="16" stroke-linecap="round"/><path d="M71 72q20-16 36 2 9 11 1 23-12 17-34 6" fill="#f8f4e9" stroke="#264f47" stroke-width="3"/><path d="M104 82l26 7-26 8z" fill="#8d2926"/><circle cx="95" cy="79" r="3.6" fill="#213a34"/><path d="M57 137l-7 25m17-24 5 24" stroke="#8d2926" stroke-width="4"/></svg></body></html>
+<!doctype html>
+<!-- Social preview card. Render at 1600x900 (e.g. a headless Chrome screenshot) and save as brand/og.png; site.mjs ships it when present, else it uses og.svg. -->
+<html lang="en"><head><meta charset="utf-8">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@700;800;900&family=GFS+Didot&family=Noto+Serif:wght@600;700&display=swap">
+<style>
+  :root { --bg:#f6f3ec; --ink:#1f2430; --muted:#646b78; --brand:#1f5fa8; --brand-soft:#e3edf9; --gold:#c8961e; --gold-soft:#faefd0; --olive:#5f8f3a; --olive-soft:#e6f0d9; --clay:#c4472f; --line:#e1dbcd; }
+  * { box-sizing:border-box; margin:0; }
+  html,body { width:1600px; height:900px; overflow:hidden; }
+  body { background:var(--bg); color:var(--ink); font-family:Nunito,sans-serif; font-feature-settings:"lnum"; position:relative; }
+  .sea { position:absolute; right:-200px; top:-160px; width:1100px; height:1100px; border-radius:50%; background:radial-gradient(circle, #cfe0f7 0%, #e3edf9 40%, rgba(246,243,236,0) 70%); }
+  .meander { position:absolute; left:0; right:0; bottom:0; height:26px; background:repeating-linear-gradient(90deg, var(--brand) 0 26px, transparent 26px 52px); opacity:.18; }
+  .left { position:absolute; left:96px; top:92px; width:860px; }
+  .mark { display:flex; align-items:center; gap:18px; }
+  .mark .word { font-family:"GFS Didot","Noto Serif",serif; font-weight:700; font-size:118px; line-height:.95; color:var(--brand); }
+  .mark .pill { font-weight:800; font-size:22px; color:#926a0f; background:var(--gold-soft); border:2px solid #ecd59a; border-radius:999px; padding:8px 18px; margin-top:20px; }
+  h1 { font-weight:900; font-size:74px; line-height:1.04; letter-spacing:-1.6px; margin-top:44px; }
+  h1 em { font-style:normal; color:var(--clay); }
+  .tag { font-family:"GFS Didot","Noto Serif",serif; font-weight:600; font-size:44px; color:var(--brand); margin-top:26px; }
+  .tag b { font-family:Nunito,sans-serif; font-weight:900; font-size:40px; color:var(--ink); }
+  .chips { display:flex; flex-wrap:wrap; gap:14px; margin-top:44px; }
+  .chip { font-weight:800; font-size:25px; background:#fff; border:2px solid var(--line); border-radius:18px; padding:12px 20px; box-shadow:0 3px 0 var(--line); }
+  .chip span { color:var(--brand); }
+  .chip.os { background:var(--ink); color:#fff; border-color:var(--ink); box-shadow:0 3px 0 #000; }
+  .chip.os span { color:#e6b84a; }
+  .url { position:absolute; left:96px; bottom:62px; font-weight:800; font-size:24px; color:var(--muted); }
+  .url b { color:var(--ink); }
+  .card { position:absolute; right:110px; top:150px; width:520px; background:#fff; border-radius:34px; padding:34px 34px 30px; box-shadow:0 30px 60px rgba(20,40,80,.16), 0 6px 0 var(--line); transform:rotate(2.5deg); }
+  .top { display:flex; justify-content:space-between; align-items:center; }
+  .bar { flex:1; height:16px; background:#ece7db; border-radius:99px; margin-right:18px; overflow:hidden; }
+  .bar i { display:block; width:72%; height:100%; background:var(--olive); border-radius:99px; }
+  .streak { display:flex; align-items:center; gap:6px; font-weight:900; font-size:26px; color:#e8702a; }
+  .kicker { font-weight:800; font-size:20px; letter-spacing:1.5px; text-transform:uppercase; color:var(--muted); margin-top:28px; }
+  .q { font-family:"Noto Serif","PingFang SC","Microsoft YaHei",serif; font-weight:600; font-size:40px; margin-top:8px; line-height:1.15; }
+  .q small { display:block; font-family:Nunito; font-weight:800; font-size:20px; color:var(--muted); margin-top:6px; }
+  .opts { display:grid; gap:12px; margin-top:26px; }
+  .opt { font-family:Nunito,sans-serif; font-weight:600; font-size:32px; border:3px solid var(--line); border-radius:18px; padding:10px 22px; display:flex; justify-content:space-between; align-items:center; box-shadow:0 4px 0 var(--line); }
+  .opt.ok { border-color:var(--olive); background:var(--olive-soft); color:#2f5e17; box-shadow:0 4px 0 #a9cf8d; }
+  .opt.ok small { font-family:Nunito; font-weight:900; font-size:22px; }
+  .xp { position:absolute; right:-26px; top:-28px; background:var(--gold); color:#fff; font-weight:900; font-size:28px; padding:12px 22px; border-radius:18px; box-shadow:0 5px 0 #926a0f; transform:rotate(6deg); }
+  .owl { position:absolute; right:610px; bottom:120px; width:240px; transform:rotate(-4deg); filter:drop-shadow(0 12px 14px rgba(20,40,80,.15)); }
+  .bubble { position:absolute; right:720px; bottom:345px; background:#fff; border:2px solid var(--line); border-radius:22px; padding:14px 20px; font-weight:800; font-size:24px; box-shadow:0 4px 0 var(--line); }
+  .bubble:after { content:""; position:absolute; right:40px; bottom:-14px; width:24px; height:24px; background:#fff; border-right:2px solid var(--line); border-bottom:2px solid var(--line); transform:rotate(45deg); }
+</style></head>
+<body>
+  <div class="sea"></div><div class="meander"></div>
+  <div class="left">
+    <div class="mark"><div class="word">Guanxi</div><div class="pill">MANDARIN · SHENZHEN</div></div>
+    <h1>Mandarin for<br>Shenzhen.<br><em>A little every day.</em></h1>
+    <div class="tag">Learn. Recall. <b>Return.</b></div>
+    <div class="chips">
+      <div class="chip"><span>14</span> chapters</div>
+      <div class="chip"><span>70</span> short lessons</div>
+      <div class="chip"><span>1</span> daily drill</div>
+      <div class="chip os">No login · <span>local progress</span></div>
+    </div>
+  </div>
+  <div class="bubble">That works!</div>
+  <img class="owl" src="glafki.svg" alt="">
+  <div class="card">
+    <div class="xp">+10 XP</div>
+    <div class="top">
+      <div class="bar"><i></i></div>
+      <div class="streak"><svg width="26" height="30" viewBox="0 0 26 30"><path d="M13 1c2 6 11 9 11 18a11 11 0 0 1-22 0c0-5 3-8 5-10 0 4 2 6 4 6-2-6 0-10 2-14z" fill="#f08a2e"/><path d="M13 14c1 3 5 4 5 8a5 5 0 0 1-10 0c0-3 3-5 5-8z" fill="#ffd16b"/></svg>12</div>
+    </div>
+    <div class="kicker">SHORT PRACTICE</div>
+    <div class="q">你好<small>What does this greeting mean?</small></div>
+    <div class="opts">
+      <div class="opt">Goodbye</div>
+      <div class="opt ok">Hello <small>✓</small></div>
+      <div class="opt">Thank you</div>
+    </div>
+  </div>
+</body></html>
