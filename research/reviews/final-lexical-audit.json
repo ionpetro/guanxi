@@ -1,0 +1,47 @@
+{
+  "units": 14,
+  "hanzi_pinyin_pairs": 1092,
+  "distinct_pairs": 602,
+  "dictionary_exact_matches_checked": 436,
+  "review_candidates": [
+    {
+      "id": "u9-l2-w3",
+      "path": "units[8].lessons[1].items[2]",
+      "hanzi": "尺寸",
+      "authored": "chǐcùn",
+      "dictionary_readings": [
+        "chǐ cun"
+      ]
+    },
+    {
+      "id": "u9-l5-sentence",
+      "path": "units[8].lessons[4].items[6].tiles[4]",
+      "hanzi": "个",
+      "authored": "ge",
+      "dictionary_readings": [
+        "gè",
+        "gě"
+      ]
+    },
+    {
+      "id": "u14-l1-w1",
+      "path": "units[13].lessons[0].items[0]",
+      "hanzi": "好久不见",
+      "authored": "hǎojiǔ bù jiàn",
+      "dictionary_readings": [
+        "hǎo jiǔ bu jiàn"
+      ]
+    },
+    {
+      "id": "u14-l4-w1",
+      "path": "units[13].lessons[3].items[0]",
+      "hanzi": "照顾",
+      "authored": "zhàogù",
+      "dictionary_readings": [
+        "zhào gu"
+      ]
+    }
+  ],
+  "unmatched_count": 166,
+  "note": "Exact lexical comparison only; no dictionary entry does not mean incorrect. Original sentences, grammar and naturalness require independent review."
+}

@@ -2,15 +2,15 @@
 
 A free Mandarin and local-culture learning app for an English-speaking beginner who wants to work with Chinese partners and build lasting relationships. Shenzhen is home base: fictional colleagues meet in Nanshan, source components in Huaqiangbei, visit Dongguan, share meals and keep in touch between trips. Guangzhou, Shanghai and Chengdu provide contrasting local settings.
 
-The interface is English. Chinese uses simplified characters, pinyin and English meaning. The app is a sibling of the Greek and Latin learning games: short sittings, a first guess, a teaching card, immediate recall, new situations, sentence tiles, matching, listening drills, spaced review, XP, forgiving streaks and a mistakes notebook. Bao, a fictional crane, keeps the field journal company.
+The interface is English. Chinese uses simplified characters, pinyin and English meaning. The app is a sibling of the Greek and Latin learning games: short sittings, a first guess, a teaching card, immediate recall, new situations, sentence tiles, matching, listening drills, spaced review, XP, forgiving streaks and a mistakes notebook. At the user's direction, it reuses Gnothi's existing design: the exact baseline stylesheet, owl and icons, narrow frame, Learn/Words/Me tabs, lesson path, onboarding and full-screen practice layout. Mandarin controls and text fit those existing components.
 
 **Course:** 14 units and 70 lessons, with 450 word/phrase/character entries, 70 original sentence builds, cultural context, grammar, 28 separately held-out scenario questions, 14 original dialogue scenes and speak-aloud field missions. Some words recur in later situations; an entry count is not a claim that every entry is a new word. The course teaches practical foundations, not fluency or HSK/BCT certification.
 
-**Publication:** deployment is prepared for `guanxi-mandarin` on Vercel. The production address is recorded after final browser checks. No GitHub repository is implied by this local project.
+**Live course:** [guanxi-mandarin.vercel.app](https://guanxi-mandarin.vercel.app/) — published and verified on 2026-11-03. The app, About page and glossary return successfully. This is a local project; no GitHub repository was created or pushed.
 
 ## Learn with it
 
-Start at unit 1 even if you plan to use later business topics. Choose a Mandarin voice in Settings when your browser offers one. Read a phrase, listen, say it aloud, then try to reconstruct it without looking. Complete due reviews before a new sitting. Use each field mission to practice a real communicative action: ask a clarification, confirm a time, explain a problem, make an optional invitation or summarize the next step.
+Start at unit 1 even if you plan to use later business topics. Choose a Mandarin voice in Me when your browser offers one. Read a phrase, listen, say it aloud, then try to reconstruct it without looking. Complete due reviews before a new sitting. Use each field mission to practice a real communicative action: ask a clarification, confirm a time, explain a problem, make an optional invitation or summarize the next step.
 
 The app cannot evaluate your spoken pronunciation. Its browser speech voice is practice audio, not a native-speaker recording or a tone grader. If no Mandarin voice is available, tone listening becomes explicitly ungraded visual practice. Printed pinyin uses citation tones; spoken tone changes are labeled separately. A teacher or willing conversation partner is the right source of feedback on how you actually sound.
 
@@ -45,7 +45,7 @@ All dialogues and questions are original. Source material informed factual conte
 
 ## Progress and privacy
 
-No account, analytics, microphone access or external AI/speech API is built into Guanxi. Progress stays in this browser under a Guanxi-specific storage key; Settings can export or import it. Clearing site data or changing devices does not carry progress across automatically. The build never reads the inherited `app/.env` file. Browser-provided voices may have their own platform behavior; Guanxi itself does not upload recordings or score speech.
+No account, analytics, microphone access or external AI/speech API is built into Guanxi. Progress stays in this browser under a Guanxi-specific storage key; Me can export or import it. Clearing site data or changing devices does not carry progress across automatically. The build never reads the inherited `app/.env` file. Browser-provided voices may have their own platform behavior; Guanxi itself does not upload recordings or score speech.
 
 Spaced review uses 1, 3, 7, 14, 30 and 60-day intervals. Early practice does not postpone a due review or promote a card. A miss returns the card to the first interval. Streaks advance once per learning day, forgive weekends and provide freezes. There are no hearts or lost lives.
 

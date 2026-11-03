@@ -1,0 +1,122 @@
+{
+  "date": "2026-11-03",
+  "reviewer": "Root browser and acceptance review",
+  "code_checkpoint": "ec0bb83",
+  "production_url": "https://guanxi-mandarin.vercel.app/",
+  "deployment_url": "https://guanxi-mandarin-mxq4nfvt8-ion-petropoulos-projects.vercel.app/",
+  "production_index_sha256": "0177fd1170ba2497e4fa14a1b7ea3a2e30cbf8961d3495fa7cf21631ab776f01",
+  "tools": "Browser interactions through cua_repl; pure logic checked with Node tests; HTTP production checks via curl.",
+  "automated": {
+    "project_tests_passed": 21,
+    "independent_acceptance_tests_passed": 3,
+    "schema_errors": 0,
+    "schema_warnings": 0,
+    "syntax_and_diff_checks": "passed",
+    "build": "14 real units; 450 glossary entries; fixture unit excluded",
+    "design_fidelity": "Exact Gnothi app stylesheet prefix; source hashes and component audit in family-template-manifest.json and family-design-reuse.md. Static PAGE_CSS and owl SVG also match the source."
+  },
+  "browser_checks": [
+    {
+      "check": "Fresh onboarding",
+      "result": "On a fresh localhost profile at390x844CSSpx, entered QA and selected20XP. Start learning opened home with the chosen name and goal."
+    },
+    {
+      "check": "Legacy progress migration",
+      "result": "Imported the earlier55XP/3completed-lessons export with onboarded:false. It bypassed onboarding, showed the imported values and retained them after reload."
+    },
+    {
+      "check": "Learn, Words, Me",
+      "result": "Three fixed tabs work; Words search shenzhen returns深圳Shēnzhèn. Appearance saves from Me and returns to scrollY0. Final source goal ring retains its side button at390px without horizontal overflow."
+    },
+    {
+      "check": "Complete practice sitting",
+      "result": "Completed the first u1l1 sitting with13steps and one deliberate miss followed by one retry. Numbered ni3hao3 input accepted. Final screen reported7of8first-try answers; no console errors."
+    },
+    {
+      "check": "Sentence tiles, tone and source link",
+      "result": "A focused3-card due-review fixture exercised a sourced culture question, concealed-answer tone question and sentence tiles. Tone1 revealed听tīng; 你好，我是周敏。was built correctly. Culture feedback linked the named Shenzhen municipal source. Detailed feedback used the family bottom sheet."
+    },
+    {
+      "check": "Matching and sorting",
+      "result": "Completed5matching pairs and5sorting entries in copied family controls. Sorting feedback listed each correction, disabled repeat submission and remained within390x844viewport."
+    },
+    {
+      "check": "Light, dark and responsive layout",
+      "result": "Both family themes inspected. Fresh onboarding, Learn, practice and glossary had no horizontal overflow at390CSSpx. Final goal button stayed82pxwide in the source single-row goal ring. Production app centered at560px. Earlier127.0.0.1origin had stale browser zoom; phone measurements use clean localhost origin."
+    },
+    {
+      "check": "Public pages and sharing image",
+      "result": "About and glossary use the760pxfamily page template; glossary has14unit tables and450entries, with wrapping verified at390px. Rendered sharing image inspected. About now points to the Me tab for progress controls."
+    },
+    {
+      "check": "Production verification",
+      "result": "Home, About and glossary returnedHTTP200. Production index hash exactly matched the final local build. Opened the first lesson from production; error log empty. Saved current production home screenshot in research/qa/guanxi-live.jpg."
+    }
+  ],
+  "test_data": "Only QA profiles were imported on local preview origins. No test profile was shipped. The production inspection only completed onboarding, changed the local display theme and opened/exited the first lesson; it recorded no learner answers.",
+  "lexical_review": "Final audit has4 residual lexical candidates. Three are documented in language-u8-u14.md as accepted full-tone/citation forms; 个 ge occurs as an unstressed measure word inside a sentence, not the isolated word card. 166 unmatched pairs are largely authored phrases/sentences; the tool does not certify them.",
+  "limitations": [
+    "No native-speaker sign-off or acoustic pronunciation quality certification.",
+    "Synthetic browser voices vary by platform; the course does not record or grade the learner’s voice.",
+    "Not every lesson was manually completed in a browser; all70 were structurally checked across20 random seeds."
+  ],
+  "pause": "Testing was paused at the user’s request during a call and resumed only after explicit instruction.",
+  "initial_checkpoint": {
+    "code_checkpoint": "5042359",
+    "deployment_url": "https://guanxi-mandarin-h3tuu0qu8-ion-petropoulos-projects.vercel.app/",
+    "production_index_sha256": "5a542718e0e4e9e4c482b42dd2d47c3cb263e48f7c86bf396d900c948a0a6225",
+    "automated": {
+      "project_tests_passed": 21,
+      "independent_acceptance_tests_passed": 3,
+      "schema_errors": 0,
+      "schema_warnings": 0,
+      "syntax_and_diff_checks": "passed",
+      "build": "14 real units; 450 glossary entries; fixture unit excluded",
+      "design_fidelity": "Exact Gnothi app stylesheet prefix; source hashes and component audit in family-template-manifest.json and family-design-reuse.md. Static PAGE_CSS and owl SVG also match the source."
+    },
+    "browser_checks": [
+      {
+        "check": "Three full lessons",
+        "result": "Completed u1l1, u8l1 and u12l3 in Chrome across all sittings. Deliberately wrong answers exercised feedback and one bounded retry. Lessons marked complete."
+      },
+      {
+        "check": "Pinyin input and sentence tiles",
+        "result": "ni3 hao3 and ting1 accepted; correct greeting sentence passed. Incorrect sentence choices produced corrective Chinese/pinyin feedback."
+      },
+      {
+        "check": "Tone listening",
+        "result": "Mandarin voice selected automatically; play control worked; hanzi/pinyin absent until tone answer. Tone1 feedback correct."
+      },
+      {
+        "check": "Listening drill",
+        "result": "Completed 8 learned-word audio questions and retries in in-app browser. Written answer hidden before choice; available voice and slow replay controls shown."
+      },
+      {
+        "check": "No Mandarin voice",
+        "result": "An isolated temporary copy returning no available voices showed Read and say it aloud, reveal/continue controls, and No listening score after completion. No production code changed for this simulation."
+      },
+      {
+        "check": "Assessment",
+        "result": "Completed two unseen u8 questions. Export showed assessment record without assessment cards entering SRS. English answer leaks in scene text corrected afterward and code-reviewed."
+      },
+      {
+        "check": "Review and saved progress",
+        "result": "Exported QA progress; imported a copy with due dates moved earlier; saw 30 due cards and completed 12-question review. Three lesson completions, XP, and same-day streak persisted across reload. Import also worked in in-app browser."
+      },
+      {
+        "check": "Daily, speed, matching, sorting",
+        "result": "Completed 5-question daily drill; speed stopped after first miss; all five matching pairs cleared; sorting displayed all category corrections and completed retry. Post-fix Check sorting disabled on feedback, preventing duplicate scoring."
+      },
+      {
+        "check": "Responsive layout and appearance",
+        "result": "Chrome at effective390CSSpx had no horizontal overflow. Dark hero and primary-button contrast issue found and fixed; final computed colors #104a3e and #af3e33, readable screenshot. Navigation returns to scrollY0. In-app browser viewport scaling differed, so Chrome390px is the phone-size evidence."
+      },
+      {
+        "check": "Sources and publication",
+        "result": "Culture source titles resolved to clickable source URLs. Production home and first lesson opened; console error log empty. Home/About/glossary each returned HTTP200."
+      }
+    ],
+    "status": "Historical checkpoint before the user requested literal Gnothi design reuse; the former visual design has been replaced."
+  },
+  "preserved_behavior": "The engine and all unit files are unchanged from5042359. Earlier audio/no-voice, daily, speed, full-lesson, export, assessment isolation and SRS tests remain recorded in initial_checkpoint; those exhaustive flows were not all repeated solely for presentation changes."
+}
