@@ -48,3 +48,9 @@ Same recipe as Carpe: Research → Curriculum → Engine → Content (write + 2 
 - Added to the shared `FAMILY` list so all seven apps link to each other
 - Analytics: none (like Agora and Oikos) unless you want PostHog
 - Cost: about $500 of credits, ~8 hours
+
+## Change (2026-11-03, from the user)
+- **Culture first, not just language.** Every unit teaches how people in China actually live and work, with local examples (cities, food, festivals, apps, workplace habits), the way Skepsis uses Texas examples.
+- Same build as the Greek apps. **Fable orchestrates** (curriculum, engine, final review); **Opus builds** (research, writing, checking, fixing, QA, deploy).
+- The 14 units above are a starting point; the Fable curriculum step rebalances them around culture.
+- Folder renamed to `experiments/mandarin`. Base engine copied from Objection (English sibling of Carpe).
