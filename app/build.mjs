@@ -7,7 +7,7 @@ const sourceBank=JSON.parse(readFileSync(new URL('../research/root-culture-sourc
 const sources=Object.fromEntries(sourceBank.map(x=>[x.id,{title:x.title,publisher:x.publisher,url:x.url}]));
 const files=unitFiles({example:process.env.GUANXI_INCLUDE_EXAMPLE==='1'});
 const units=files.map(f=>readFileSync(f,'utf8')).join('\n');
-const out=read('./src/shell.html').replace('/*STYLE*/',read('./src/style.css')).replace('/*SOURCES*/',JSON.stringify(sources).replace(/</g,'\\u003c')).replace('/*UNITS*/',units).replace('/*ENGINE*/',read('./src/engine.js')).replace('/*APP*/',read('./src/app.js'));
+const out=read('./src/shell.html').replace('/*STYLE*/',read('./src/style.css')).replace('/*SOURCES*/',JSON.stringify(sources).replace(/</g,'\\u003c')).replace('/*UNITS*/',units).replace('/*ENGINE*/',read('./src/engine.js')).replace('/*APP*/',read('./src/app.js')).replace('</head>', () => '<script>'+read('./src/analytics.js')+'</script></head>');
 mkdirSync(new URL('./dist/',import.meta.url),{recursive:true});writeFileSync(new URL('./dist/index.html',import.meta.url),out);
 const count=buildSite(out,new URL('./vercel/',import.meta.url));
-console.log(`Built ${files.length} units, ${count} glossary entries; no analytics or .env loading.`);
+console.log(`Built ${files.length} units, ${count} glossary entries; production-only learning analytics; no .env loading.`);

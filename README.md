@@ -45,7 +45,7 @@ All dialogues and questions are original. Source material informed factual conte
 
 ## Progress and privacy
 
-No account, analytics, microphone access or external AI/speech API is built into Guanxi. Progress stays in this browser under a Guanxi-specific storage key; Me can export or import it. Clearing site data or changing devices does not carry progress across automatically. The build never reads the inherited `app/.env` file. Browser-provided voices may have their own platform behavior; Guanxi itself does not upload recordings or score speech.
+Guanxi sends visit and learning events to PostHog on its production website for Pulse. Names, typed answers and recordings are not sent. No account, microphone access or external AI/speech API is built into Guanxi. Progress stays in this browser under a Guanxi-specific storage key; Me can export or import it. Clearing site data or changing devices does not carry progress across automatically. The build never reads the inherited `app/.env` file. Browser-provided voices may have their own platform behavior; Guanxi itself does not upload recordings or score speech.
 
 Spaced review uses 1, 3, 7, 14, 30 and 60-day intervals. Early practice does not postpone a due review or promote a card. A miss returns the card to the first interval. Streaks advance once per learning day, forgive weekends and provide freezes. There are no hearts or lost lives.
 
