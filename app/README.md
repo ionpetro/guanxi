@@ -1,6 +1,6 @@
 # Guanxi app
 
-A static, offline-friendly learning app for an English-speaking beginner returning to Shenzhen. The browser stores progress locally. No login, analytics, microphone or external speech API.
+A static, offline-friendly learning app for an English-speaking beginner returning to Shenzhen. The browser stores progress locally. No login, microphone or external speech API. The production app sends visit and learning events to PostHog for Pulse, without names, typed answers or recordings.
 
 ## Development
 
