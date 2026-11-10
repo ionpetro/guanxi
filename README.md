@@ -8,6 +8,21 @@ The interface is English. Chinese uses simplified characters, pinyin and English
 
 **Live course:** [guanxi-mandarin.vercel.app](https://guanxi-mandarin.vercel.app/) — published and verified on 2026-11-03. The app, About page and glossary return successfully. The MIT-licensed source is at [ionpetro/guanxi](https://github.com/ionpetro/guanxi). The top-right star prompt uses the same component as the other family apps, including the welcome screen.
 
+## Open source, and the family
+
+Guanxi is free and open source (MIT). **If it helps you, please [star the repo](https://github.com/ionpetro/guanxi)**: a star helps other people find it. Corrections and pull requests are welcome.
+
+Guanxi is one of eight free, open-source learning apps built the same way (short daily lessons and spaced review):
+
+- **Skepsis**: the Greek hiding in everyday English. [Play](https://skepsis-greek.vercel.app) · [GitHub](https://github.com/ionpetro/skepsis)
+- **Carpe**: Latin for Greece's national exams. [Play](https://carpe-latin.vercel.app) · [GitHub](https://github.com/ionpetro/carpe)
+- **Gnothi**: Ancient Greek for Greece's national exams. [Play](https://gnothi-greek.vercel.app) · [GitHub](https://github.com/ionpetro/gnothi)
+- **Objection**: prep for the US bar exam (MBE). [Play](https://objection-bar.vercel.app) · [GitHub](https://github.com/ionpetro/objection)
+- **Agora**: sales and negotiation, with ethics. [Play](https://agora-sales-xi.vercel.app) · [GitHub](https://github.com/ionpetro/agora)
+- **Oikos**: economics and incentives. [Play](https://oikos-azure-five.vercel.app) · [GitHub](https://github.com/ionpetro/oikos)
+- **Guanxi** (this one): Mandarin and local culture. [Play](https://guanxi-mandarin.vercel.app) · [GitHub](https://github.com/ionpetro/guanxi)
+- **Everyday Ethics**: everyday choices and ethical judgment. [Private preview](https://everyday-ethics-ion.wintrypenny4.chatgpt.site) · [GitHub](https://github.com/ionpetro/everyday-ethics)
+
 ## Learn with it
 
 Start at unit 1 even if you plan to use later business topics. Choose a Mandarin voice in Me when your browser offers one. Read a phrase, listen, say it aloud, then try to reconstruct it without looking. Complete due reviews before a new sitting. Use each field mission to practice a real communicative action: ask a clarification, confirm a time, explain a problem, make an optional invitation or summarize the next step.
