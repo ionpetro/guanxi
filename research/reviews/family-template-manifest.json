@@ -4,22 +4,22 @@
   "template": "Gnothi existing app",
   "sources": [
     {
-      "file": "/Users/ionpetro/Documents/jobmachine/experiments/ancient-greek-panhellenic/app/src/style.css",
+      "file": "/Users/ionpetro/Documents/learning-apps/ancient-greek-panhellenic/app/src/style.css",
       "bytes": 39910,
       "sha256": "c333a2fdb79a6968d31391bbd597f00f3a38996b0331aca6616f14254b682734"
     },
     {
-      "file": "/Users/ionpetro/Documents/jobmachine/experiments/ancient-greek-panhellenic/app/src/app.js",
+      "file": "/Users/ionpetro/Documents/learning-apps/ancient-greek-panhellenic/app/src/app.js",
       "bytes": 105081,
       "sha256": "4ac43f0a5938399285bc14479ae85b3fcce3b0a70ad06626550a17686e73bed1"
     },
     {
-      "file": "/Users/ionpetro/Documents/jobmachine/experiments/ancient-greek-panhellenic/app/src/shell.html",
+      "file": "/Users/ionpetro/Documents/learning-apps/ancient-greek-panhellenic/app/src/shell.html",
       "bytes": 883,
       "sha256": "a69a50d67d9e3c1e09cad1461fbf2de6cf77a69a762c7f098fe1ff54f3b37be1"
     },
     {
-      "file": "/Users/ionpetro/Documents/jobmachine/experiments/ancient-greek-panhellenic/app/site.mjs",
+      "file": "/Users/ionpetro/Documents/learning-apps/ancient-greek-panhellenic/app/site.mjs",
       "bytes": 25517,
       "sha256": "7d70e15757240e18aed3cf5d56a9af7c4eba921772e7cd03291e9e661db631eb"
     }
