@@ -15,7 +15,7 @@ const FAMILY = [
     {"id": "agora", "name": "Agora", "url": "https://agora-sales-xi.vercel.app", "repo": "https://github.com/ionpetro/agora", "en": "sales and negotiation, with ethics", "el": "πωλήσεις και διαπραγμάτευση, με ηθική"},
     {"id": "oikos", "name": "Oikos", "url": "https://oikos-azure-five.vercel.app", "repo": "https://github.com/ionpetro/oikos", "en": "economics and incentives", "el": "οικονομικά και κίνητρα"},
     {"id": "guanxi", "name": "Guanxi", "url": "https://guanxi-mandarin.vercel.app", "repo": "https://github.com/ionpetro/guanxi", "en": "Mandarin and local culture", "el": "Μανδαρινικά και τοπική κουλτούρα"},
-    {"id": "everyday-ethics", "name": "Everyday Ethics", "url": "https://everyday-ethics-ion.wintrypenny4.chatgpt.site", "repo": "https://github.com/ionpetro/everyday-ethics", "en": "everyday choices and ethical judgment · private preview", "el": "καθημερινές επιλογές και ηθική κρίση · ιδιωτική προεπισκόπηση"},
+    {"id": "everyday-ethics", "name": "Everyday Ethics", "url": "https://everyday-ethics.vercel.app", "repo": "https://github.com/ionpetro/everyday-ethics", "en": "everyday choices and ethical judgment", "el": "καθημερινές επιλογές και ηθική κρίση"},
   ];
 const css = `:root{--bg:#f6f3ec;--surface:#fffdf8;--ink:#1f2430;--muted:#646b78;--line:#e1dbcd;--brand:#1f5fa8;--brand-deep:#143f72;--brand-soft:#e3edf9;--gold:#c8961e;--gold-soft:#faefd0;--olive:#5f8f3a;--on:#fff;color-scheme:light}
 @media (prefers-color-scheme:dark){:root{--bg:#121826;--surface:#1a2232;--ink:#eef1f6;--muted:#a3acbb;--line:#2f3a4e;--brand:#7fb2ef;--brand-deep:#3d79c4;--brand-soft:#1f3250;--gold:#e6b84a;--gold-soft:#3a3017;--olive:#8cc766;--on:#121826;color-scheme:dark}}
