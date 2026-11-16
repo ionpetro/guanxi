@@ -8,14 +8,14 @@ const SOURCE_MAP=Object.fromEntries(SOURCE_BANK.map(x=>[x.id,x]));
 const NAME='Guanxi',DESC='Practical Mandarin for returning to Shenzhen, in short lessons with listening and spaced practice.';
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const FAMILY = [
-    {"id": "skepsis", "name": "Skepsis", "url": "https://skepsis-greek.vercel.app", "repo": "https://github.com/ionpetro/skepsis", "en": "the Greek hiding in everyday English", "el": "οι ελληνικές ρίζες που κρύβονται στα αγγλικά"},
-    {"id": "carpe", "name": "Carpe", "url": "https://carpe-latin.vercel.app", "repo": "https://github.com/ionpetro/carpe", "en": "Latin for Greece's national exams", "el": "Λατινικά για τις Πανελλαδικές"},
-    {"id": "gnothi", "name": "Gnothi", "url": "https://gnothi-greek.vercel.app", "repo": "https://github.com/ionpetro/gnothi", "en": "Ancient Greek for Greece's national exams", "el": "Αρχαία Ελληνικά για τις Πανελλαδικές"},
-    {"id": "objection", "name": "Objection", "url": "https://objection-bar.vercel.app", "repo": "https://github.com/ionpetro/objection", "en": "prep for the US bar exam", "el": "προετοιμασία για τις εξετάσεις δικηγόρων των ΗΠΑ"},
-    {"id": "agora", "name": "Agora", "url": "https://agora-sales-xi.vercel.app", "repo": "https://github.com/ionpetro/agora", "en": "sales and negotiation, with ethics", "el": "πωλήσεις και διαπραγμάτευση, με ηθική"},
-    {"id": "oikos", "name": "Oikos", "url": "https://oikos-azure-five.vercel.app", "repo": "https://github.com/ionpetro/oikos", "en": "economics and incentives", "el": "οικονομικά και κίνητρα"},
-    {"id": "guanxi", "name": "Guanxi", "url": "https://guanxi-mandarin.vercel.app", "repo": "https://github.com/ionpetro/guanxi", "en": "Mandarin and local culture", "el": "Μανδαρινικά και τοπική κουλτούρα"},
-    {"id": "everyday-ethics", "name": "Everyday Ethics", "url": "https://everyday-ethics.vercel.app", "repo": "https://github.com/ionpetro/everyday-ethics", "en": "everyday choices and ethical judgment", "el": "καθημερινές επιλογές και ηθική κρίση"},
+    {"id": "skepsis", "name": "Skepsis", "url": "https://tryskepsis.com", "repo": "https://github.com/ionpetro/skepsis", "en": "the Greek hiding in everyday English", "el": "οι ελληνικές ρίζες που κρύβονται στα αγγλικά"},
+    {"id": "carpe", "name": "Carpe", "url": "https://carpe.tryskepsis.com", "repo": "https://github.com/ionpetro/carpe", "en": "Latin for Greece's national exams", "el": "Λατινικά για τις Πανελλαδικές"},
+    {"id": "gnothi", "name": "Gnothi", "url": "https://gnothi.tryskepsis.com", "repo": "https://github.com/ionpetro/gnothi", "en": "Ancient Greek for Greece's national exams", "el": "Αρχαία Ελληνικά για τις Πανελλαδικές"},
+    {"id": "objection", "name": "Objection", "url": "https://objection.tryskepsis.com", "repo": "https://github.com/ionpetro/objection", "en": "prep for the US bar exam", "el": "προετοιμασία για τις εξετάσεις δικηγόρων των ΗΠΑ"},
+    {"id": "agora", "name": "Agora", "url": "https://agora.tryskepsis.com", "repo": "https://github.com/ionpetro/agora", "en": "sales and negotiation, with ethics", "el": "πωλήσεις και διαπραγμάτευση, με ηθική"},
+    {"id": "oikos", "name": "Oikos", "url": "https://oikos.tryskepsis.com", "repo": "https://github.com/ionpetro/oikos", "en": "economics and incentives", "el": "οικονομικά και κίνητρα"},
+    {"id": "guanxi", "name": "Guanxi", "url": "https://guanxi.tryskepsis.com", "repo": "https://github.com/ionpetro/guanxi", "en": "Mandarin and local culture", "el": "Μανδαρινικά και τοπική κουλτούρα"},
+    {"id": "everyday-ethics", "name": "Everyday Ethics", "url": "https://ethics.tryskepsis.com", "repo": "https://github.com/ionpetro/everyday-ethics", "en": "everyday choices and ethical judgment", "el": "καθημερινές επιλογές και ηθική κρίση"},
   ];
 const css = `:root{--bg:#f6f3ec;--surface:#fffdf8;--ink:#1f2430;--muted:#646b78;--line:#e1dbcd;--brand:#1f5fa8;--brand-deep:#143f72;--brand-soft:#e3edf9;--gold:#c8961e;--gold-soft:#faefd0;--olive:#5f8f3a;--on:#fff;color-scheme:light}
 @media (prefers-color-scheme:dark){:root{--bg:#121826;--surface:#1a2232;--ink:#eef1f6;--muted:#a3acbb;--line:#2f3a4e;--brand:#7fb2ef;--brand-deep:#3d79c4;--brand-soft:#1f3250;--gold:#e6b84a;--gold-soft:#3a3017;--olive:#8cc766;--on:#121826;color-scheme:dark}}

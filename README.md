@@ -6,7 +6,7 @@ The interface is English. Chinese uses simplified characters, pinyin and English
 
 **Course:** 14 units and 70 lessons, with 450 word/phrase/character entries, 70 original sentence builds, cultural context, grammar, 28 separately held-out scenario questions, 14 original dialogue scenes and speak-aloud field missions. Some words recur in later situations; an entry count is not a claim that every entry is a new word. The course teaches practical foundations, not fluency or HSK/BCT certification.
 
-**Live course:** [guanxi-mandarin.vercel.app](https://guanxi-mandarin.vercel.app/) — published and verified on 2026-11-03. The app, About page and glossary return successfully. The MIT-licensed source is at [ionpetro/guanxi](https://github.com/ionpetro/guanxi). The top-right star prompt uses the same component as the other family apps, including the welcome screen.
+**Live course:** [guanxi.tryskepsis.com](https://guanxi.tryskepsis.com/) — published and verified on 2026-11-03. The app, About page and glossary return successfully. The MIT-licensed source is at [ionpetro/guanxi](https://github.com/ionpetro/guanxi). The top-right star prompt uses the same component as the other family apps, including the welcome screen.
 
 ## Open source, and the family
 
@@ -17,13 +17,13 @@ Guanxi is one of eight free, open-source learning apps built the same way (short
 | | App | What it teaches | Links |
 |:-:|---|---|---|
 | <img src="https://tryskepsis.com/icon-192.png" width="40" height="40" alt="Skepsis logo"> | **Skepsis** | the Greek hiding in everyday English | [Play](https://tryskepsis.com) · [GitHub](https://github.com/ionpetro/skepsis) |
-| <img src="https://carpe-latin.vercel.app/icon.svg" width="40" height="40" alt="Carpe logo"> | **Carpe** | Latin for Greece's national exams | [Play](https://carpe-latin.vercel.app) · [GitHub](https://github.com/ionpetro/carpe) |
-| <img src="https://gnothi-greek.vercel.app/icon.svg" width="40" height="40" alt="Gnothi logo"> | **Gnothi** | Ancient Greek for Greece's national exams | [Play](https://gnothi-greek.vercel.app) · [GitHub](https://github.com/ionpetro/gnothi) |
-| <img src="https://objection-bar.vercel.app/icon.svg" width="40" height="40" alt="Objection logo"> | **Objection** | prep for the US bar exam (MBE) | [Play](https://objection-bar.vercel.app) · [GitHub](https://github.com/ionpetro/objection) |
-| <img src="https://agora-sales-xi.vercel.app/icon.svg" width="40" height="40" alt="Agora logo"> | **Agora** | sales and negotiation, with ethics | [Play](https://agora-sales-xi.vercel.app) · [GitHub](https://github.com/ionpetro/agora) |
-| <img src="https://oikos-azure-five.vercel.app/icon.svg" width="40" height="40" alt="Oikos logo"> | **Oikos** | economics and incentives | [Play](https://oikos-azure-five.vercel.app) · [GitHub](https://github.com/ionpetro/oikos) |
-| <img src="https://guanxi-mandarin.vercel.app/icon.svg" width="40" height="40" alt="Guanxi logo"> | **Guanxi** (this one) | Mandarin and local culture | [Play](https://guanxi-mandarin.vercel.app) · [GitHub](https://github.com/ionpetro/guanxi) |
-| <img src="https://everyday-ethics.vercel.app/icon.svg" width="40" height="40" alt="Everyday Ethics logo"> | **Everyday Ethics** | everyday choices and ethical judgment | [Play](https://everyday-ethics.vercel.app) · [GitHub](https://github.com/ionpetro/everyday-ethics) |
+| <img src="https://carpe.tryskepsis.com/icon.svg" width="40" height="40" alt="Carpe logo"> | **Carpe** | Latin for Greece's national exams | [Play](https://carpe.tryskepsis.com) · [GitHub](https://github.com/ionpetro/carpe) |
+| <img src="https://gnothi.tryskepsis.com/icon.svg" width="40" height="40" alt="Gnothi logo"> | **Gnothi** | Ancient Greek for Greece's national exams | [Play](https://gnothi.tryskepsis.com) · [GitHub](https://github.com/ionpetro/gnothi) |
+| <img src="https://objection.tryskepsis.com/icon.svg" width="40" height="40" alt="Objection logo"> | **Objection** | prep for the US bar exam (MBE) | [Play](https://objection.tryskepsis.com) · [GitHub](https://github.com/ionpetro/objection) |
+| <img src="https://agora.tryskepsis.com/icon.svg" width="40" height="40" alt="Agora logo"> | **Agora** | sales and negotiation, with ethics | [Play](https://agora.tryskepsis.com) · [GitHub](https://github.com/ionpetro/agora) |
+| <img src="https://oikos.tryskepsis.com/icon.svg" width="40" height="40" alt="Oikos logo"> | **Oikos** | economics and incentives | [Play](https://oikos.tryskepsis.com) · [GitHub](https://github.com/ionpetro/oikos) |
+| <img src="https://guanxi.tryskepsis.com/icon.svg" width="40" height="40" alt="Guanxi logo"> | **Guanxi** (this one) | Mandarin and local culture | [Play](https://guanxi.tryskepsis.com) · [GitHub](https://github.com/ionpetro/guanxi) |
+| <img src="https://ethics.tryskepsis.com/icon.svg" width="40" height="40" alt="Everyday Ethics logo"> | **Everyday Ethics** | everyday choices and ethical judgment | [Play](https://ethics.tryskepsis.com) · [GitHub](https://github.com/ionpetro/everyday-ethics) |
 
 ## Learn with it
 
