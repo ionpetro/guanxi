@@ -36,6 +36,7 @@ const Engine = (() => {
     if(typeof s.name!=='string')s.name='';
     if(!/^\d{4}-\d{2}-\d{2}$/.test(s.lastDay||''))s.lastDay=null;
     if(!/^\d{4}-\d{2}-\d{2}$/.test(s.freezeWeek||''))s.freezeWeek=null;
+    for(const key of ['sittings','revisits'])for(const [id,v] of Object.entries(s[key]))if(!Number.isInteger(v)||v<0)delete s[key][id];
     for(const [id,card] of Object.entries(s.items)){
       if(!card||typeof card!=='object'||!Number.isInteger(card.box)||card.box<1||card.box>6||!/^\d{4}-\d{2}-\d{2}$/.test(card.due||'')){delete s.items[id];continue;}
       card.right=Math.max(0,Number(card.right)||0);card.wrong=Math.max(0,Number(card.wrong)||0);
@@ -55,7 +56,7 @@ const Engine = (() => {
     if(s.streak%7===0)s.freezes=Math.min(2,s.freezes+1);
     return out;
   }
-  function liveStreak(s,today) { if(!s.lastDay)return 0; return s.lastDay===today||missedWeekdays(s.lastDay,today)<=s.freezes?s.streak:0; }
+  function liveStreak(s,today) { if(!s.lastDay||s.lastDay>today)return 0; const freezes=s.freezeWeek!==weekKey(today)?Math.max(1,s.freezes||0):s.freezes; return s.lastDay===today||missedWeekdays(s.lastDay,today)<=freezes?s.streak:0; }
   function addXp(s,today,n){n=Math.max(0,Math.round(n)); s.xp+=n;s.days[today]=(Number(s.days[today])||0)+n;}
   function rankOf(s){let rank=RANKS[0];for(const r of RANKS)if(s.xp>=r.xp)rank=r;return {rank,next:RANKS[RANKS.indexOf(rank)+1]||null};}
   function indexCourse(units){

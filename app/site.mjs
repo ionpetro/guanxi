@@ -17,6 +17,7 @@ const FAMILY = [
     {"id": "guanxi", "name": "Guanxi", "url": "https://guanxi.tryskepsis.com", "repo": "https://github.com/ionpetro/guanxi", "en": "Mandarin and local culture", "el": "Μανδαρινικά και τοπική κουλτούρα"},
     {"id": "everyday-ethics", "name": "Everyday Ethics", "url": "https://ethics.tryskepsis.com", "repo": "https://github.com/ionpetro/everyday-ethics", "en": "everyday choices and ethical judgment", "el": "καθημερινές επιλογές και ηθική κρίση"},
     {"id": "komorebi", "name": "Komorebi", "url": "https://komorebi.tryskepsis.com", "repo": "https://github.com/ionpetro/komorebi", "en": "Japanese through everyday life", "el": "Ιαπωνικά μέσα από την καθημερινή ζωή"},
+    {"id": "is-ethical", "name": "Is it ethical?", "url": "https://is-ethical.tryskepsis.com", "repo": "https://github.com/ionpetro/is-ethical", "en": "humans and AI agents vote yes or no on ethics questions", "el": "άνθρωποι και πράκτορες AI ψηφίζουν ναι ή όχι σε ηθικά ερωτήματα"},
   ];
 const css = `:root{--bg:#f6f3ec;--surface:#fffdf8;--ink:#1f2430;--muted:#646b78;--line:#e1dbcd;--brand:#1f5fa8;--brand-deep:#143f72;--brand-soft:#e3edf9;--gold:#c8961e;--gold-soft:#faefd0;--olive:#5f8f3a;--on:#fff;color-scheme:light}
 @media (prefers-color-scheme:dark){:root{--bg:#121826;--surface:#1a2232;--ink:#eef1f6;--muted:#a3acbb;--line:#2f3a4e;--brand:#7fb2ef;--brand-deep:#3d79c4;--brand-soft:#1f3250;--gold:#e6b84a;--gold-soft:#3a3017;--olive:#8cc766;--on:#121826;color-scheme:dark}}

@@ -13,6 +13,7 @@
     {"id": "guanxi", "name": "Guanxi", "url": "https://guanxi.tryskepsis.com", "repo": "https://github.com/ionpetro/guanxi", "en": "Mandarin and local culture", "el": "Μανδαρινικά και τοπική κουλτούρα"},
     {"id": "everyday-ethics", "name": "Everyday Ethics", "url": "https://ethics.tryskepsis.com", "repo": "https://github.com/ionpetro/everyday-ethics", "en": "everyday choices and ethical judgment", "el": "καθημερινές επιλογές και ηθική κρίση"},
     {"id": "komorebi", "name": "Komorebi", "url": "https://komorebi.tryskepsis.com", "repo": "https://github.com/ionpetro/komorebi", "en": "Japanese through everyday life", "el": "Ιαπωνικά μέσα από την καθημερινή ζωή"},
+    {"id": "is-ethical", "name": "Is it ethical?", "url": "https://is-ethical.tryskepsis.com", "repo": "https://github.com/ionpetro/is-ethical", "en": "humans and AI agents vote yes or no on ethics questions", "el": "άνθρωποι και πράκτορες AI ψηφίζουν ναι ή όχι σε ηθικά ερωτήματα"},
   ];
   const root=document.getElementById('app');
   let storageOK=true,state;
@@ -181,7 +182,7 @@
   });
   function nextUngraded(){if(!session)return;feedback=null;tiles=[];match={left:null,right:null,done:[]};sort={};session.deadline=null;session.index++;session.stepAt=Date.now();if(session.index>=session.steps.length)finish();else{render();top();}}
   root.addEventListener('submit',ev=>{if(ev.target.id!=='pinyin-form')return;ev.preventDefault();const q=session?.steps[session.index],value=document.getElementById('pinyin-answer')?.value||'';if(q&&q.type==='pinyin'&&value.trim())recordAnswer(q,E.acceptsPinyin(q.answer,value),value);});
-  root.addEventListener('input',ev=>{if(ev.target.id==='word-search'){const term=E.norm(ev.target.value),words=[...ix.items.values()].filter(it=>['word','character'].includes(it.kind)&&E.norm([it.hanzi,it.pinyin,it.meaning].join(' ')).includes(term));document.getElementById('word-list').innerHTML=wordRows(words);}});
+  root.addEventListener('input',ev=>{if(ev.target.id==='word-search'){const fold=v=>E.norm(String(v).normalize('NFD').replace(/[\u0300-\u036f]/g,''));const term=fold(ev.target.value),words=[...ix.items.values()].filter(it=>['word','character'].includes(it.kind)&&E.norm([it.hanzi,it.pinyin,it.meaning].join(' ')).includes(term));document.getElementById('word-list').innerHTML=wordRows(words);}});
   root.addEventListener('change',async ev=>{if(ev.target.id!=='import-file')return;const file=ev.target.files?.[0];if(!file)return;try{if(file.size>2e6)throw Error('File is too large.');const parsed=JSON.parse(await file.text());if(!parsed||typeof parsed!=='object'||!parsed.items||!parsed.done)throw Error('This is not a Guanxi progress file.');state=E.repairState(parsed);if(!state.onboarded&&(state.xp>0||state.answered>0||Object.keys(state.done||{}).length||Object.keys(state.sittings||{}).length||Object.keys(state.items||{}).length))state.onboarded=true;save();notice='Progress imported.';view='home';render();top();}catch(err){notice=err.message||'Could not import this file.';view='settings';render();}});
   render();
 })();

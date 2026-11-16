@@ -506,3 +506,6 @@ body.run-open { overflow: hidden; } /* the page behind a run must not scroll und
 .topbar-main .stat { min-width: 0; max-width: 100%; }
 .topbar-main .stat > span { min-width: 0; overflow-wrap: anywhere; }
 @media (max-width: 380px) { .topbar > .gh > svg { display: none; } }
+
+/* Guanxi adaptation: the overlay is fixed and the body locked, so a tall results screen must scroll itself. */
+.lesson-inner > .results { min-height: 0; overflow-y: auto; justify-content: safe center; }
